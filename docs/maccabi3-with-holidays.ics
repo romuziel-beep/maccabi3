@@ -26,20 +26,20 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:da1ydX@maccabi3.schedule
-DTSTAMP:20261103T112118Z
-LAST-MODIFIED:20261103T112118Z
-SEQUENCE:1
+DTSTAMP:20261103T120239Z
+LAST-MODIFIED:20261103T120239Z
+SEQUENCE:2
 DTSTART;TZID=Asia/Jerusalem:20261113T113000
 DTEND;TZID=Asia/Jerusalem:20261113T150000
 SUMMARY:מכבי 3: טורניר חוץ (12:30\, 13:45)
-LOCATION:תיכון בליך רמת גן
+LOCATION:תיכון בליך רמת גן\, המאה ואחד 22 רמת גן
 DESCRIPTION:כינוס: 11:30\n12:30 נגד בליך עומרי ועידו 
  רמת גן (מחזור 217)\n13:45 נגד מכבי תל אביב 2 (מח
  זור 218)\nהקבוצות בטורניר: מכבי תל אביב 3\, ב
  ליך עומרי ועידו רמת גן\, מכבי תל אביב 2\nאו
- לם: תיכון בליך רמת גן\nWaze: https://waze.com/ul?q=%D7%AA%
- D7%99%D7%9B%D7%95%D7%9F%20%D7%91%D7%9C%D7%99%D7%9A%20%D7%A8%D7%9E%D7%AA%20
- %D7%92%D7%9F&navigate=yes
+ לם: תיכון בליך רמת גן\nכתובת: המאה ואחד 22 ר
+ מת גן\nWaze: https://waze.com/ul?q=%D7%94%D7%9E%D7%90%D7%94%20%D7%95%D
+ 7%90%D7%97%D7%93%2022%20%D7%A8%D7%9E%D7%AA%20%D7%92%D7%9F&navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -63,19 +63,22 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:31jydY@maccabi3.schedule
-DTSTAMP:20261103T112118Z
-LAST-MODIFIED:20261103T112118Z
-SEQUENCE:1
+DTSTAMP:20261103T120239Z
+LAST-MODIFIED:20261103T120239Z
+SEQUENCE:2
 DTSTART;TZID=Asia/Jerusalem:20261225T113000
 DTEND;TZID=Asia/Jerusalem:20261225T150000
 SUMMARY:מכבי 3: טורניר חוץ (12:30\, 13:45)
-LOCATION:פרס נובל ראשל"צ
+LOCATION:פרס נובל ראשל"צ\, הנרי קיסינג'ר 5 ראשו
+ ן לציון
 DESCRIPTION:כינוס: 11:30\n12:30 נגד מכבי ראשון לציון 
  (מחזור 235)\n13:45 נגד מכבי תל אביב 4 (מחזור 236)\n
  הקבוצות בטורניר: מכבי תל אביב 3\, מכבי ראש
  ון לציון\, מכבי תל אביב 4\nאולם: פרס נובל רא
- של"צ\nWaze: https://waze.com/ul?q=%D7%A4%D7%A8%D7%A1%20%D7%A0%D7%95%D7%
- 91%D7%9C%20%D7%A8%D7%90%D7%A9%D7%9C%22%D7%A6&navigate=yes
+ של"צ\nכתובת: הנרי קיסינג'ר 5 ראשון לציון\nWaz
+ e: https://waze.com/ul?q=%D7%94%D7%A0%D7%A8%D7%99%20%D7%A7%D7%99%D7%A1%D7%
+ 99%D7%A0%D7%92%27%D7%A8%205%20%D7%A8%D7%90%D7%A9%D7%95%D7%9F%20%D7%9C%D7%A
+ 6%D7%99%D7%95%D7%9F&navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
@@ -119,56 +122,59 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a4LydY@maccabi3.schedule
-DTSTAMP:20261103T112118Z
-LAST-MODIFIED:20261103T112118Z
-SEQUENCE:1
+DTSTAMP:20261103T120239Z
+LAST-MODIFIED:20261103T120239Z
+SEQUENCE:2
 DTSTART;TZID=Asia/Jerusalem:20270220T111500
 DTEND;TZID=Asia/Jerusalem:20270220T144500
 SUMMARY:מכבי 3: טורניר חוץ (12:15\, 13:30)
-LOCATION:אולם בי"ס שמעוני גבעתיים
+LOCATION:אולם בי"ס שמעוני גבעתיים\, רביבים 1 גב
+ עתיים
 DESCRIPTION:כינוס: 11:15\n12:15 נגד מ.כ. גני תקווה (מח
  זור 263)\n13:30 נגד הפועל גבעתיים (מחזור 264)\nהק
  בוצות בטורניר: מכבי תל אביב 3\, מ.כ. גני תקו
  וה\, הפועל גבעתיים\nאולם: אולם בי"ס שמעוני 
- גבעתיים\nWaze: https://waze.com/ul?q=%D7%90%D7%95%D7%9C%D7%9D%20%D7
- %91%D7%99%22%D7%A1%20%D7%A9%D7%9E%D7%A2%D7%95%D7%A0%D7%99%20%D7%92%D7%91%D
- 7%A2%D7%AA%D7%99%D7%99%D7%9D&navigate=yes
+ גבעתיים\nכתובת: רביבים 1 גבעתיים\nWaze: https://w
+ aze.com/ul?q=%D7%A8%D7%91%D7%99%D7%91%D7%99%D7%9D%201%20%D7%92%D7%91%D7%A2
+ %D7%AA%D7%99%D7%99%D7%9D&navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:0eTydY@maccabi3.schedule
-DTSTAMP:20261103T112118Z
-LAST-MODIFIED:20261103T112118Z
-SEQUENCE:1
+DTSTAMP:20261103T120239Z
+LAST-MODIFIED:20261103T120239Z
+SEQUENCE:2
 DTSTART;TZID=Asia/Jerusalem:20270319T120000
 DTEND;TZID=Asia/Jerusalem:20270319T153000
 SUMMARY:מכבי 3: טורניר חוץ (13:00\, 14:15)
-LOCATION:אולם בית ספר גורדון
+LOCATION:אולם בית ספר גורדון\, הירקון 248 תל אבי
+ ב
 DESCRIPTION:כינוס: 12:00\n13:00 נגד מכבי תל אביב 4 (מח
  זור 271)\n14:15 נגד מכבי ראשון לציון (מחזור 272)\
  nהקבוצות בטורניר: מכבי תל אביב 3\, מכבי תל 
  אביב 4\, מכבי ראשון לציון\nאולם: אולם בית ס
- פר גורדון\nWaze: https://waze.com/ul?q=%D7%90%D7%95%D7%9C%D7%9D%20
- %D7%91%D7%99%D7%AA%20%D7%A1%D7%A4%D7%A8%20%D7%92%D7%95%D7%A8%D7%93%D7%95%D
- 7%9F&navigate=yes
+ פר גורדון\nכתובת: הירקון 248 תל אביב\nWaze: https
+ ://waze.com/ul?q=%D7%94%D7%99%D7%A8%D7%A7%D7%95%D7%9F%20248%20%D7%AA%D7%9C
+ %20%D7%90%D7%91%D7%99%D7%91&navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:486ydY@maccabi3.schedule
-DTSTAMP:20261103T112118Z
-LAST-MODIFIED:20261103T112118Z
-SEQUENCE:1
+DTSTAMP:20261103T120239Z
+LAST-MODIFIED:20261103T120239Z
+SEQUENCE:2
 DTSTART;TZID=Asia/Jerusalem:20270409T131500
 DTEND;TZID=Asia/Jerusalem:20270409T164500
 SUMMARY:מכבי 3: טורניר חוץ (14:15\, 15:30)
-LOCATION:אולם תיכון צמרות תל אביב
+LOCATION:אולם תיכון צמרות תל אביב\, ניסים אלונ
+ י 8 תל אביב
 DESCRIPTION:כינוס: 13:15\n14:15 נגד ק.ק. תל אביב 1 (מחז
  ור 284)\n15:30 נגד מ.ס. רמת אביב 2 (מחזור 285)\nהקב
  וצות בטורניר: מכבי תל אביב 3\, ק.ק. תל אביב 1
  \, מ.ס. רמת אביב 2\nאולם: אולם תיכון צמרות תל
-  אביב\nWaze: https://waze.com/ul?q=%D7%90%D7%95%D7%9C%D7%9D%20%D7%AA%D
- 7%99%D7%9B%D7%95%D7%9F%20%D7%A6%D7%9E%D7%A8%D7%95%D7%AA%20%D7%AA%D7%9C%20%
- D7%90%D7%91%D7%99%D7%91&navigate=yes
+  אביב\nכתובת: ניסים אלוני 8 תל אביב\nWaze: https:
+ //waze.com/ul?q=%D7%A0%D7%99%D7%A1%D7%99%D7%9D%20%D7%90%D7%9C%D7%95%D7%A0%
+ D7%99%208%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91&navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
