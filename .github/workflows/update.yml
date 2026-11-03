@@ -1,0 +1,57 @@
+name: update-schedule
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "data/games_manual.json"
+      - "data/overrides.json"
+      - "data/holidays.json"
+      - "data/venues.json"
+      - "config.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-schedule
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Scrape games
+        run: python scripts/scrape.py
+
+      - name: Build site
+        run: python scripts/build.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "schedule-bot"
+          git config user.email "schedule-bot@users.noreply.github.com"
+          git add docs state data/games_scraped.json data/games_manual.json
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "auto update schedule"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Health check
+        run: python scripts/build.py --check-health
