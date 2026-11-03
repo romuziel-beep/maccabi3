@@ -1,0 +1,16 @@
+{
+  "team_name": "מכבי 3",
+  "team_full_name": "מכבי תל אביב 3",
+  "season": "תשפ\"ז",
+  "league": "ליגת נערים ב' (U15)",
+  "timezone": "Asia/Jerusalem",
+  "default_duration_min": 75,
+  "default_gather_min": 30,
+  "stale_hours": 36,
+  "school_level": "secondary",
+  "sources": {
+    "games_url": "https://www.iva.org.il/team/?TeamId=f0kjdu&cYear=2027"
+  },
+  "official_holidays_url": "https://apps.education.gov.il/mankal/Hodaa.aspx?siduri=362",
+  "home_venue": "יהודה מכבי תל אביב"
+}

@@ -1,0 +1,270 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Maccabi3 Schedule//HE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:מכבי 3: משחקים וחופשות
+X-WR-TIMEZONE:Asia/Jerusalem
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Asia/Jerusalem
+BEGIN:STANDARD
+DTSTART:19701025T020000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZNAME:IST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700327T020000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=FR;BYMONTHDAY=23,24,25,26,27,28,29
+TZNAME:IDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:da1ydX@maccabi3.schedule
+DTSTAMP:20261103T102559Z
+LAST-MODIFIED:20261103T102559Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Jerusalem:20261113T120000
+DTEND;TZID=Asia/Jerusalem:20261113T150000
+SUMMARY:מכבי 3: טורניר חוץ (12:30\, 13:45)
+LOCATION:תיכון בליך רמת גן
+DESCRIPTION:כינוס: 12:00\n12:30 נגד בליך עומרי ועידו 
+ רמת גן (מחזור 217)\n13:45 נגד מכבי תל אביב 2 (מח
+ זור 218)\nהקבוצות בטורניר: מכבי תל אביב 3\, ב
+ ליך עומרי ועידו רמת גן\, מכבי תל אביב 2\nאו
+ לם: תיכון בליך רמת גן\nWaze: https://waze.com/ul?q=%D7%AA%
+ D7%99%D7%9B%D7%95%D7%9F%20%D7%91%D7%9C%D7%99%D7%9A%20%D7%A8%D7%9E%D7%AA%20
+ %D7%92%D7%9F&navigate=yes
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bfaydY@maccabi3.schedule
+DTSTAMP:20261103T102559Z
+LAST-MODIFIED:20261103T102559Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Jerusalem:20261204T130000
+DTEND;TZID=Asia/Jerusalem:20261204T171500
+SUMMARY:מכבי 3: טורניר בית (13:30\, 16:00)
+LOCATION:יהודה מכבי תל אביב\, אנטיגונס 6\, תל אב
+ יב
+DESCRIPTION:כינוס: 13:00\n13:30 נגד מ.כ. גני תקווה (מח
+ זור 226)\n16:00 נגד הפועל גבעתיים (מחזור 228)\nהק
+ בוצות בטורניר: מכבי תל אביב 3\, מ.כ. גני תקו
+ וה\, הפועל גבעתיים\nאולם: יהודה מכבי תל אב
+ יב\nכתובת: אנטיגונס 6\, תל אביב\nWaze: https://waze.c
+ om/ul?q=%D7%90%D7%A0%D7%98%D7%99%D7%92%D7%95%D7%A0%D7%A1%206%2C%20%D7%AA%D
+ 7%9C%20%D7%90%D7%91%D7%99%D7%91&navigate=yes
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:31jydY@maccabi3.schedule
+DTSTAMP:20261103T102559Z
+LAST-MODIFIED:20261103T102559Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Jerusalem:20261225T120000
+DTEND;TZID=Asia/Jerusalem:20261225T150000
+SUMMARY:מכבי 3: טורניר חוץ (12:30\, 13:45)
+LOCATION:פרס נובל ראשל"צ
+DESCRIPTION:כינוס: 12:00\n12:30 נגד מכבי ראשון לציון 
+ (מחזור 235)\n13:45 נגד מכבי תל אביב 4 (מחזור 236)\n
+ הקבוצות בטורניר: מכבי תל אביב 3\, מכבי ראש
+ ון לציון\, מכבי תל אביב 4\nאולם: פרס נובל רא
+ של"צ\nWaze: https://waze.com/ul?q=%D7%A4%D7%A8%D7%A1%20%D7%A0%D7%95%D7%
+ 91%D7%9C%20%D7%A8%D7%90%D7%A9%D7%9C%22%D7%A6&navigate=yes
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5bvydY@maccabi3.schedule
+DTSTAMP:20261103T102559Z
+LAST-MODIFIED:20261103T102559Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Jerusalem:20270115T130000
+DTEND;TZID=Asia/Jerusalem:20270115T171500
+SUMMARY:מכבי 3: טורניר בית (13:30\, 16:00)
+LOCATION:יהודה מכבי תל אביב\, אנטיגונס 6\, תל אב
+ יב
+DESCRIPTION:כינוס: 13:00\n13:30 נגד מ.ס. רמת אביב 2 (מח
+ זור 247)\n16:00 נגד ק.ק. תל אביב 1 (מחזור 249)\nהקב
+ וצות בטורניר: מכבי תל אביב 3\, מ.ס. רמת אביב
+  2\, ק.ק. תל אביב 1\nאולם: יהודה מכבי תל אביב\n
+ כתובת: אנטיגונס 6\, תל אביב\nWaze: https://waze.com/ul?
+ q=%D7%90%D7%A0%D7%98%D7%99%D7%92%D7%95%D7%A0%D7%A1%206%2C%20%D7%AA%D7%9C%2
+ 0%D7%90%D7%91%D7%99%D7%91&navigate=yes
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f7BydY@maccabi3.schedule
+DTSTAMP:20261103T102559Z
+LAST-MODIFIED:20261103T102559Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Jerusalem:20270205T130000
+DTEND;TZID=Asia/Jerusalem:20270205T171500
+SUMMARY:מכבי 3: טורניר בית (13:30\, 16:00)
+LOCATION:יהודה מכבי תל אביב\, אנטיגונס 6\, תל אב
+ יב
+DESCRIPTION:כינוס: 13:00\n13:30 נגד בליך עומרי ועידו 
+ רמת גן (מחזור 253)\n16:00 נגד מכבי תל אביב 2 (מח
+ זור 255)\nהקבוצות בטורניר: מכבי תל אביב 3\, ב
+ ליך עומרי ועידו רמת גן\, מכבי תל אביב 2\nאו
+ לם: יהודה מכבי תל אביב\nכתובת: אנטיגונס 6\, 
+ תל אביב\nWaze: https://waze.com/ul?q=%D7%90%D7%A0%D7%98%D7%99%D7%92%
+ D7%95%D7%A0%D7%A1%206%2C%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91&navigat
+ e=yes
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a4LydY@maccabi3.schedule
+DTSTAMP:20261103T102559Z
+LAST-MODIFIED:20261103T102559Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Jerusalem:20270220T114500
+DTEND;TZID=Asia/Jerusalem:20270220T144500
+SUMMARY:מכבי 3: טורניר חוץ (12:15\, 13:30)
+LOCATION:אולם בי"ס שמעוני גבעתיים
+DESCRIPTION:כינוס: 11:45\n12:15 נגד מ.כ. גני תקווה (מח
+ זור 263)\n13:30 נגד הפועל גבעתיים (מחזור 264)\nהק
+ בוצות בטורניר: מכבי תל אביב 3\, מ.כ. גני תקו
+ וה\, הפועל גבעתיים\nאולם: אולם בי"ס שמעוני 
+ גבעתיים\nWaze: https://waze.com/ul?q=%D7%90%D7%95%D7%9C%D7%9D%20%D7
+ %91%D7%99%22%D7%A1%20%D7%A9%D7%9E%D7%A2%D7%95%D7%A0%D7%99%20%D7%92%D7%91%D
+ 7%A2%D7%AA%D7%99%D7%99%D7%9D&navigate=yes
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0eTydY@maccabi3.schedule
+DTSTAMP:20261103T102559Z
+LAST-MODIFIED:20261103T102559Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Jerusalem:20270319T123000
+DTEND;TZID=Asia/Jerusalem:20270319T153000
+SUMMARY:מכבי 3: טורניר חוץ (13:00\, 14:15)
+LOCATION:אולם בית ספר גורדון
+DESCRIPTION:כינוס: 12:30\n13:00 נגד מכבי תל אביב 4 (מח
+ זור 271)\n14:15 נגד מכבי ראשון לציון (מחזור 272)\
+ nהקבוצות בטורניר: מכבי תל אביב 3\, מכבי תל 
+ אביב 4\, מכבי ראשון לציון\nאולם: אולם בית ס
+ פר גורדון\nWaze: https://waze.com/ul?q=%D7%90%D7%95%D7%9C%D7%9D%20
+ %D7%91%D7%99%D7%AA%20%D7%A1%D7%A4%D7%A8%20%D7%92%D7%95%D7%A8%D7%93%D7%95%D
+ 7%9F&navigate=yes
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:486ydY@maccabi3.schedule
+DTSTAMP:20261103T102559Z
+LAST-MODIFIED:20261103T102559Z
+SEQUENCE:0
+DTSTART;TZID=Asia/Jerusalem:20270409T134500
+DTEND;TZID=Asia/Jerusalem:20270409T164500
+SUMMARY:מכבי 3: טורניר חוץ (14:15\, 15:30)
+LOCATION:אולם תיכון צמרות תל אביב
+DESCRIPTION:כינוס: 13:45\n14:15 נגד ק.ק. תל אביב 1 (מחז
+ ור 284)\n15:30 נגד מ.ס. רמת אביב 2 (מחזור 285)\nהקב
+ וצות בטורניר: מכבי תל אביב 3\, ק.ק. תל אביב 1
+ \, מ.ס. רמת אביב 2\nאולם: אולם תיכון צמרות תל
+  אביב\nWaze: https://waze.com/ul?q=%D7%90%D7%95%D7%9C%D7%9D%20%D7%AA%D
+ 7%99%D7%9B%D7%95%D7%9F%20%D7%A6%D7%9E%D7%A8%D7%95%D7%AA%20%D7%AA%D7%9C%20%
+ D7%90%D7%91%D7%99%D7%91&navigate=yes
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:hol-chanukah-5787@maccabi3.schedule
+DTSTAMP:20261103T000000Z
+LAST-MODIFIED:20261103T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261213
+SUMMARY:חופשה: חופשת חנוכה
+DESCRIPTION:החופשה מתחילה בשבת 5.12. בפועל ימי לי
+ מוד שנפלו: ראשון עד חמישי (6-10.12).\nחזרה ללי
+ מודים: 2026-12-13\nלוח חופשות משרד החינוך\, נאס
+ ף ממקורות פומביים. לאימות מול חוזר המנכ"ל
+ .
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hol-purim-5787@maccabi3.schedule
+DTSTAMP:20261103T000000Z
+LAST-MODIFIED:20261103T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270325
+SUMMARY:חופשה: חופשת פורים
+DESCRIPTION:תענית אסתר (22.3) הוא יום לימודים רגי
+ ל.\nחזרה ללימודים: 2027-03-25\nלוח חופשות משרד 
+ החינוך\, נאסף ממקורות פומביים. לאימות מול
+  חוזר המנכ"ל.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hol-pesach-5787@maccabi3.schedule
+DTSTAMP:20261103T000000Z
+LAST-MODIFIED:20261103T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270429
+SUMMARY:חופשה: חופשת פסח
+DESCRIPTION:אסרו חג (29.4) הוא יום לימודים. תאריכי
+  הקצה זהים בכל המקורות\; אתר קרמל מציין ימ
+ י שבוע שגויים ולכן לא שימש להכרעה.\nחזרה ל
+ לימודים: 2027-04-29\nלוח חופשות משרד החינוך\, נ
+ אסף ממקורות פומביים. לאימות מול חוזר המנ
+ כ"ל.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hol-yom-hazikaron-5787@maccabi3.schedule
+DTSTAMP:20261103T000000Z
+LAST-MODIFIED:20261103T000000Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:יום לימודים מקוצר: יום הזיכרון
+DESCRIPTION:יום לימודים מקוצר\, עד 12:00.\nלוח חופש
+ ות משרד החינוך\, נאסף ממקורות פומביים. לא
+ ימות מול חוזר המנכ"ל.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hol-independence-5787@maccabi3.schedule
+DTSTAMP:20261103T000000Z
+LAST-MODIFIED:20261103T000000Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:אין לימודים: יום העצמאות
+DESCRIPTION:חזרה ללימודים: 2027-05-13\nלוח חופשות מש
+ רד החינוך\, נאסף ממקורות פומביים. לאימות 
+ מול חוזר המנכ"ל.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hol-lag-baomer-5787@maccabi3.schedule
+DTSTAMP:20261103T000000Z
+LAST-MODIFIED:20261103T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:ייתכן שאין לימודים: ל"ג בעומר (לא ודאי
+ )
+DESCRIPTION:סתירה בין מקורות. ישראל היום\, 'יער 
+ הקקאו' ו-basalon: יום חופש. mako\, edugo\, antro.co.il ו-rng
+ .org.il (הניסוח האחרון נראה מועתק מהחוזר): יו
+ ם לימודים. לפי רוב המקורות הקרובים לחוזר 
+ זה כנראה יום לימודים\, אך חובה לאמת מול הח
+ וזר או בית הספר.\nלוח חופשות משרד החינוך\, 
+ נאסף ממקורות פומביים. לאימות מול חוזר המ
+ נכ"ל.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hol-shavuot-5787@maccabi3.schedule
+DTSTAMP:20261103T000000Z
+LAST-MODIFIED:20261103T000000Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270613
+SUMMARY:חופשה: חופשת שבועות
+DESCRIPTION:חזרה ללימודים: 2027-06-13\nלוח חופשות מש
+ רד החינוך\, נאסף ממקורות פומביים. לאימות 
+ מול חוזר המנכ"ל.
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

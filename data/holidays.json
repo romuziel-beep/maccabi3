@@ -1,0 +1,122 @@
+{
+  "school_year": "תשפ\"ז (2026-2027)",
+  "updated": "2026-11-03",
+  "verification_note": "נאסף והוצלב ב-3.11.2026 מכמה מקורות פומביים. הנוסח הרשמי של חוזר המנכ\"ל (apps.education.gov.il) חסום לגישה אוטומטית ולכן לא נקרא ישירות. יש לאמת מולו לפני הסתמכות, במיוחד בפריטים המסומנים 'לא ודאי'.",
+  "items": [
+    {
+      "key": "chanukah-5787",
+      "name": "חופשת חנוכה",
+      "type": "break",
+      "start": "2026-12-06",
+      "end": "2026-12-12",
+      "return_date": "2026-12-13",
+      "applies_to": "all",
+      "confidence": "high",
+      "note": "החופשה מתחילה בשבת 5.12. בפועל ימי לימוד שנפלו: ראשון עד חמישי (6-10.12).",
+      "sources": ["israelhayom.co.il/vacation-calendar", "mako.co.il (Article-33b7e14799af651006)", "basalon.co.il"]
+    },
+    {
+      "key": "purim-5787",
+      "name": "חופשת פורים",
+      "type": "break",
+      "start": "2027-03-23",
+      "end": "2027-03-24",
+      "return_date": "2027-03-25",
+      "applies_to": "all",
+      "confidence": "high",
+      "note": "תענית אסתר (22.3) הוא יום לימודים רגיל.",
+      "sources": ["israelhayom.co.il/vacation-calendar", "mako.co.il", "karamel.co.il"]
+    },
+    {
+      "key": "pesach-5787",
+      "name": "חופשת פסח",
+      "type": "break",
+      "start": "2027-04-13",
+      "end": "2027-04-28",
+      "return_date": "2027-04-29",
+      "applies_to": "all",
+      "confidence": "high",
+      "note": "אסרו חג (29.4) הוא יום לימודים. תאריכי הקצה זהים בכל המקורות; אתר קרמל מציין ימי שבוע שגויים ולכן לא שימש להכרעה.",
+      "sources": ["israelhayom.co.il/vacation-calendar", "mako.co.il", "karamel.co.il"]
+    },
+    {
+      "key": "yom-hashoah-5787",
+      "name": "יום השואה והגבורה",
+      "type": "school_day",
+      "start": "2027-05-04",
+      "end": "2027-05-04",
+      "applies_to": "all",
+      "confidence": "medium",
+      "note": "יום לימודים עם טקסים. צפירה ב-10:00.",
+      "sources": ["karamel.co.il", "edugo.co.il/vacations"]
+    },
+    {
+      "key": "yom-hazikaron-5787",
+      "name": "יום הזיכרון",
+      "type": "short_day",
+      "start": "2027-05-11",
+      "end": "2027-05-11",
+      "applies_to": "all",
+      "confidence": "medium",
+      "note": "יום לימודים מקוצר, עד 12:00.",
+      "sources": ["mako.co.il", "edugo.co.il/vacations"]
+    },
+    {
+      "key": "independence-5787",
+      "name": "יום העצמאות",
+      "type": "off",
+      "start": "2027-05-12",
+      "end": "2027-05-12",
+      "return_date": "2027-05-13",
+      "applies_to": "all",
+      "confidence": "high",
+      "note": "",
+      "sources": ["israelhayom.co.il/vacation-calendar", "mako.co.il", "edugo.co.il/vacations"]
+    },
+    {
+      "key": "lag-baomer-5787",
+      "name": "ל\"ג בעומר",
+      "type": "disputed",
+      "start": "2027-05-25",
+      "end": "2027-05-25",
+      "applies_to": "all",
+      "confidence": "disputed",
+      "note": "סתירה בין מקורות. ישראל היום, 'יער הקקאו' ו-basalon: יום חופש. mako, edugo, antro.co.il ו-rng.org.il (הניסוח האחרון נראה מועתק מהחוזר): יום לימודים. לפי רוב המקורות הקרובים לחוזר זה כנראה יום לימודים, אך חובה לאמת מול החוזר או בית הספר.",
+      "sources": ["israelhayom.co.il/vacation-calendar", "mako.co.il", "edugo.co.il/vacations", "antro.co.il/db/calendar.html", "rng.org.il"]
+    },
+    {
+      "key": "shavuot-5787",
+      "name": "חופשת שבועות",
+      "type": "break",
+      "start": "2027-06-10",
+      "end": "2027-06-12",
+      "return_date": "2027-06-13",
+      "applies_to": "all",
+      "confidence": "high",
+      "note": "",
+      "sources": ["israelhayom.co.il/vacation-calendar", "rng.org.il", "basalon.co.il"]
+    },
+    {
+      "key": "year-end-secondary-5787",
+      "name": "סיום שנת הלימודים: חטיבות ביניים ותיכונים",
+      "type": "year_end",
+      "start": "2027-06-21",
+      "end": "2027-08-31",
+      "applies_to": "secondary",
+      "confidence": "medium",
+      "note": "יום לימודים אחרון: 20.6.2027. מקור יחיד מפורט (מאקו) בתוספת ישראל היום; לאמת.",
+      "sources": ["mako.co.il", "israelhayom.co.il/vacation-calendar", "karamel.co.il"]
+    },
+    {
+      "key": "year-end-elementary-5787",
+      "name": "סיום שנת הלימודים: יסודי וגנים",
+      "type": "year_end",
+      "start": "2027-07-01",
+      "end": "2027-08-31",
+      "applies_to": "elementary",
+      "confidence": "high",
+      "note": "יום לימודים אחרון: 30.6.2027.",
+      "sources": ["mako.co.il", "israelhayom.co.il/vacation-calendar", "karamel.co.il"]
+    }
+  ]
+}
