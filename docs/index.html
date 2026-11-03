@@ -15,6 +15,7 @@
   --alt-ink:#0b2a6f;--alt-line:#0b2a6f;--toast:#14213d;--toast-ink:#ffffff;
   --warn-bg:#fff1c2;--warn-ink:#5c4400;--bad-bg:#fde3e3;--bad-ink:#7a1212;
   --info-bg:#e4ecff;--info-ink:#12307a;--ok-bg:#dff4e6;--ok-ink:#145a2c;
+  --st-hdr:#0f1a33;--st-hdr-ink:#ffffff;--st-hdr-sub:#a9b6d9;
   --radius:16px;--shadow:0 1px 2px rgba(20,33,61,.06),0 6px 18px rgba(20,33,61,.06);
 }
 @media (prefers-color-scheme:dark){
@@ -22,11 +23,11 @@
     --bg:#0c1222;--card:#151d33;--ink:#eef1f9;--muted:#a3aec9;--line:#27324f;
     --brand:#3d63d1;--hdr:#101a3a;--alt-ink:#bcd0ff;--alt-line:#3d63d1;--toast:#eef1f9;--toast-ink:#14213d;
     --warn-bg:#3d3210;--warn-ink:#ffe08a;--bad-bg:#431a1a;--bad-ink:#ffb4b4;
-    --info-bg:#1b2b57;--info-ink:#bcd0ff;--ok-bg:#16361f;--ok-ink:#a8e6bb;--shadow:none;color-scheme:dark;
+    --info-bg:#1b2b57;--info-ink:#bcd0ff;--ok-bg:#16361f;--ok-ink:#a8e6bb;--st-hdr:#0a1020;--shadow:none;color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
-  --bg:#0c1222;--card:#151d33;--ink:#eef1f9;--muted:#a3aec9;--line:#27324f;
+  --st-hdr:#0a1020;--bg:#0c1222;--card:#151d33;--ink:#eef1f9;--muted:#a3aec9;--line:#27324f;
   --brand:#3d63d1;--hdr:#101a3a;--alt-ink:#bcd0ff;--alt-line:#3d63d1;--toast:#eef1f9;--toast-ink:#14213d;
   --warn-bg:#3d3210;--warn-ink:#ffe08a;--bad-bg:#431a1a;--bad-ink:#ffb4b4;
   --info-bg:#1b2b57;--info-ink:#bcd0ff;--ok-bg:#16361f;--ok-ink:#a8e6bb;--shadow:none;color-scheme:dark;
@@ -72,6 +73,29 @@ h2{font-size:1.1rem;margin:28px 0 10px}
 .game>div{min-width:0}
 .game .time{min-width:3.4rem;font-weight:800;font-size:1.15rem;font-variant-numeric:tabular-nums}
 .gatherline{margin:.35rem 0 0;font-size:1rem}
+.dhead{display:flex;gap:14px;align-items:flex-start}
+.dmain{min-width:0;flex:1}
+.dtile{flex:none;width:58px;border-radius:14px;background:var(--info-bg);color:var(--info-ink);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:6px 0;line-height:1.1}
+.dtile .dnum{font-size:1.55rem;font-weight:800;font-variant-numeric:tabular-nums}
+.dtile small{font-size:.75rem;font-weight:700}
+.hero .dtile{background:var(--brand);color:var(--brand-ink)}
+.cd{margin:.3rem 0 0;font-size:.95rem;color:var(--muted)}
+.cd strong{color:var(--ink);font-size:1.05rem}
+.st-card{padding:0;overflow:hidden}
+.st-head{background:var(--st-hdr);color:var(--st-hdr-ink);padding:14px 16px;display:flex;flex-direction:column;gap:2px}
+.st-head strong{font-size:1.1rem}
+.st-head span{font-size:.85rem;color:var(--st-hdr-sub)}
+.st-head .st-sample{margin-top:6px;background:var(--warn-bg);color:var(--warn-ink);border-radius:8px;padding:2px 8px;width:fit-content;font-weight:700}
+.st-wrap{overflow-x:auto}
+table.st{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:.92rem}
+table.st th{font-size:.75rem;color:var(--muted);font-weight:700;padding:8px 6px;border-bottom:1px solid var(--line);text-align:center;white-space:nowrap}
+table.st td{padding:10px 6px;border-bottom:1px solid var(--line);text-align:center}
+table.st th.tm,table.st td.tm{text-align:start;width:100%}
+table.st td.pts{font-weight:800;color:var(--alt-ink)}
+table.st tr.mine td{background:var(--info-bg);font-weight:700}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.st-note{margin:0 0 6px;color:var(--ink);font-weight:600}
+.st-foot{padding:8px 16px 12px;font-size:.78rem;color:var(--muted)}
 .kicker .badge{margin-inline-start:.5rem}
 .game .opp{font-weight:700}
 .game .meta{font-size:.85rem;color:var(--muted)}
@@ -193,6 +217,7 @@ const F = {
   long: new Intl.DateTimeFormat("he-IL", {weekday: "long", day: "numeric", month: "long", timeZone: "UTC"}),
   short: new Intl.DateTimeFormat("he-IL", {weekday: "short", day: "numeric", month: "numeric", timeZone: "UTC"}),
   month: new Intl.DateTimeFormat("he-IL", {month: "long", year: "numeric", timeZone: "UTC"}),
+  mon: new Intl.DateTimeFormat("he-IL", {month: "short", timeZone: "UTC"}),
   stamp: new Intl.DateTimeFormat("he-IL", {day: "numeric", month: "numeric", hour: "2-digit", minute: "2-digit", timeZone: TZ}),
 };
 function rel(days) {
@@ -202,6 +227,19 @@ function rel(days) {
   if (days === -1) return "אתמול";
   if (days < 0) return `לפני ${-days} ימים`;
   return `בעוד ${days} ימים`;
+}
+
+/* ספירה לאחור עד שעה נתונה (שעון ישראל). חוזר null אם עברה. */
+function countdown(date, time, ctx) {
+  const mins = dayDiff(ctx.today, date) * 1440 + toMin(time) - toMin(ctx.now);
+  if (mins <= 0) return null;
+  const d = Math.floor(mins / 1440), hh = Math.floor((mins % 1440) / 60), m = mins % 60;
+  const D = n => n === 1 ? "יום" : n === 2 ? "יומיים" : `${n} ימים`;
+  const H = n => n === 1 ? "שעה" : n === 2 ? "שעתיים" : `${n} שעות`;
+  const M = n => n === 1 ? "דקה" : n === 2 ? "שתי דקות" : `${n} דקות`;
+  if (d > 0) return hh ? `${D(d)} ו-${H(hh)}` : D(d);
+  if (hh > 0) return m ? `${H(hh)} ו-${M(m)}` : H(hh);
+  return M(m);
 }
 
 /* ---------- ניווט וקישורים ---------- */
@@ -265,13 +303,44 @@ function dayCard(d, games, ctx, hero, force) {
       el("span", {}, hero ? (games.length > 1 ? "הטורניר הקרוב" : "המשחק הקרוב") : dayTitle(d, games.length),
         kind ? el("span", {class: "badge" + (d.home ? " home" : ""), text: kind}) : null),
       el("span", {class: "count", text: rel(diff)})),
-    el("div", {class: "when", text: F.long.format(noon(d.date))}),
-    off ? null : el("p", {class: "gatherline"}, el("strong", {text: `כינוס ב-${d.gather}`}), `  ·  משחקים ${d.start_time}${d.end_time !== d.start_time ? " עד " + d.end_time : ""}`),
+    el("div", {class: "dhead"},
+      el("div", {class: "dtile", "aria-hidden": "true"}, el("span", {class: "dnum", text: String(Number(d.date.slice(8)))}), el("small", {text: F.mon.format(noon(d.date))})),
+      el("div", {class: "dmain"},
+        el("div", {class: "when", text: F.long.format(noon(d.date))}),
+        off ? null : el("p", {class: "gatherline"}, el("strong", {text: `כינוס ב-${d.gather}`}), `  ·  משחקים ${d.start_time}${d.end_time !== d.start_time ? " עד " + d.end_time : ""}`),
+        (hero && !off && countdown(d.date, d.gather, ctx)) ? el("p", {class: "cd"}, "עד הכינוס: ", el("strong", {text: countdown(d.date, d.gather, ctx)})) : null)),
     d.venue ? el("p", {class: "venue"}, d.venue,
       unverified ? el("small", {text: "הכתובת המדויקת לא אומתה. הניווט מחפש לפי שם האולם, כדאי לוודא."}) : null) : null,
     others.length > 1 ? el("p", {class: "meta", text: `בטורניר: ${(d.teams || []).join(" · ")}`}) : null,
     games.map(g => gameRow(g)),
     hero || force || (diff >= 0 && diff <= 14) ? el("div", {class: "actions"}, nav) : null);
+}
+
+function standingsCard(ctx) {
+  const s = ctx.data.standings;
+  if (!s || !Array.isArray(s.rows) || !s.rows.length) return null;
+  const me = ctx.data.team_full || ctx.data.team;
+  const num = v => (v == null ? "" : String(v));
+  const diff = v => (v == null ? "" : v > 0 ? `+${v}` : String(v));
+  const th = (t, cls) => el("th", {scope: "col", class: cls, text: t});
+  const rows = s.rows.map((r, i) => el("tr", {class: r.team === me ? "mine" : null},
+    el("td", {text: num(r.rank != null ? r.rank : i + 1)}),
+    el("td", {class: "tm", text: r.team}),
+    el("td", {text: num(r.played)}), el("td", {text: num(r.wins)}), el("td", {text: num(r.losses)}),
+    el("td", {text: diff(r.diff)}), el("td", {class: "pts", text: num(r.points)})));
+  const upd = Date.parse(s.updated);
+  return el("section", {class: "card st-card", id: "standings"},
+    el("div", {class: "st-head"},
+      el("strong", {text: "דירוג נוכחי"}),
+      el("span", {text: [s.league, s.region].filter(Boolean).join(" · ")}),
+      s.sample ? el("span", {class: "st-sample", text: "דוגמה לעיצוב בלבד, הנתונים אינם אמיתיים"}) : null),
+    el("div", {class: "st-wrap"}, el("table", {class: "st"},
+      el("caption", {class: "sr", text: "טבלת הליגה"}),
+      el("thead", {}, el("tr", {}, th("#"), th("קבוצה", "tm"), th("מ׳"), th("נ׳"), th("ה׳"), th("הפרש"), th("נק׳"))),
+      el("tbody", {}, rows))),
+    el("div", {class: "st-foot"},
+      s.rows.every(r => !r.played) ? el("p", {class: "st-note", text: "העונה עוד לא התחילה, ולכן כל הקבוצות על אפס. הסדר בטבלה עדיין לא משקף כלום ויתעדכן אחרי המשחקים הראשונים."}) : null,
+      isNaN(upd) ? "הדירוג נמשך מאתר איגוד הכדורעף." : `הדירוג נמשך מאתר איגוד הכדורעף. עודכן: ${F.stamp.format(new Date(upd))}`));
 }
 
 function subscribeCard() {
@@ -443,7 +512,7 @@ function render(data) {
 
   let banner = null;
   const ageH = isNaN(checked) ? Infinity : (Date.now() - checked) / 36e5;
-  if (data.scrape && data.scrape.configured && (data.scrape.ok === false || ageH > (data.stale_hours || 36))) {
+  if (data.scrape && data.scrape.configured && ageH > (data.warn_after_hours || 6)) {   // כשל בודד (502 זמני) לא מפחיד הורים; פער של כמה סריקות כן
     const src = safeUrl(data.source_url);
     banner = el("div", {class: "banner", role: "alert"},
       "העדכון האוטומטי לא הצליח לאחרונה, ייתכן שיש שינויים שעדיין לא מופיעים כאן. ",
@@ -461,9 +530,11 @@ function render(data) {
         if (m !== lastMonth) { list.push(el("div", {class: "month", text: m})); lastMonth = m; }
       } else lastMonth = F.month.format(noon(d.date));
       list.push(dayCard(d, dayGames(d), ctx, i === 0, false));
+      if (i === 0) { const sc = standingsCard(ctx); if (sc) list.push(sc); }
       i++;
     }
   }
+  if (!upcomingDays.length) { const sc = standingsCard(ctx); if (sc) list.push(sc); }
   list.push(subscribeCard());
   const hol = holidaysCard(ctx);
   if (hol) { list.push(el("h2", {text: "חופשות משרד החינוך"})); list.push(hol); }
