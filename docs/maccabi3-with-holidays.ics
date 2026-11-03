@@ -63,22 +63,21 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:31jydY@maccabi3.schedule
-DTSTAMP:20261103T120239Z
-LAST-MODIFIED:20261103T120239Z
-SEQUENCE:2
+DTSTAMP:20261103T121225Z
+LAST-MODIFIED:20261103T121225Z
+SEQUENCE:3
 DTSTART;TZID=Asia/Jerusalem:20261225T113000
 DTEND;TZID=Asia/Jerusalem:20261225T150000
 SUMMARY:מכבי 3: טורניר חוץ (12:30\, 13:45)
-LOCATION:פרס נובל ראשל"צ\, הנרי קיסינג'ר 5 ראשו
- ן לציון
+LOCATION:פרס נובל ראשל"צ\, Pras Nobel Sports Hall\, Rishon LeZi
+ on
 DESCRIPTION:כינוס: 11:30\n12:30 נגד מכבי ראשון לציון 
  (מחזור 235)\n13:45 נגד מכבי תל אביב 4 (מחזור 236)\n
  הקבוצות בטורניר: מכבי תל אביב 3\, מכבי ראש
  ון לציון\, מכבי תל אביב 4\nאולם: פרס נובל רא
- של"צ\nכתובת: הנרי קיסינג'ר 5 ראשון לציון\nWaz
- e: https://waze.com/ul?q=%D7%94%D7%A0%D7%A8%D7%99%20%D7%A7%D7%99%D7%A1%D7%
- 99%D7%A0%D7%92%27%D7%A8%205%20%D7%A8%D7%90%D7%A9%D7%95%D7%9F%20%D7%9C%D7%A
- 6%D7%99%D7%95%D7%9F&navigate=yes
+ של"צ\nכתובת: Pras Nobel Sports Hall\, Rishon LeZion\nWaze: https:/
+ /waze.com/ul?q=Pras%20Nobel%20Sports%20Hall%2C%20Rishon%20LeZion&navigate=
+ yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

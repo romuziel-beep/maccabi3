@@ -19,9 +19,9 @@
   },
   "31jydY": {
     "first_seen": "2026-11-03T10:25:59Z",
-    "modified": "2026-11-03T12:02:39Z",
-    "seq": 2,
-    "sig": "1ce6c4952a50e31339c289201ce2f41f53cd37b2"
+    "modified": "2026-11-03T12:12:25Z",
+    "seq": 3,
+    "sig": "5444e424b043d43ac0066d3abe9626a7107b0c59"
   },
   "486ydY": {
     "first_seen": "2026-11-03T10:25:59Z",
@@ -67,9 +67,9 @@
   },
   "c3kydY": {
     "first_seen": "2026-11-03T10:25:59Z",
-    "modified": "2026-11-03T12:02:39Z",
-    "seq": 1,
-    "sig": "1f556f154605269ea40bcda81f289fa30f132956"
+    "modified": "2026-11-03T12:12:25Z",
+    "seq": 2,
+    "sig": "6384e89df5d9b8e0da69be5aebf3e32a28884e93"
   },
   "da1ydX": {
     "first_seen": "2026-11-03T10:25:59Z",
@@ -85,9 +85,9 @@
   },
   "day:31jydY": {
     "first_seen": "2026-11-03T10:25:59Z",
-    "modified": "2026-11-03T12:02:39Z",
-    "seq": 2,
-    "sig": "0c56b879a591a3b03f4ae1e28f12f9ea28caee72"
+    "modified": "2026-11-03T12:12:25Z",
+    "seq": 3,
+    "sig": "3736f2de809d717a5a3303fc5f8ece194751fe0c"
   },
   "day:486ydY": {
     "first_seen": "2026-11-03T10:25:59Z",

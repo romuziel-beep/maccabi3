@@ -3,12 +3,12 @@
   "season": "תשפ\"ז",
   "league": "ליגת נערים ב' (U15)",
   "checked_at": "2026-11-03T12:08:08Z",
-  "built_at": "2026-11-03T12:08:09Z",
+  "built_at": "2026-11-03T12:12:25Z",
   "stale_hours": 36,
   "scrape": {
     "configured": true,
-    "ok": true,
-    "error": null
+    "ok": false,
+    "error": "HTTPError: 502 Server Error: Bad Gateway for url: https://www.iva.org.il/team/?TeamId=f0kjdu&cYear=2027"
   },
   "games": [
     {
@@ -132,7 +132,7 @@
       "source_url": "https://www.iva.org.il/game-zone/?GameId=31jydY",
       "origin": "scraped",
       "note": "",
-      "address": "הנרי קיסינג'ר 5 ראשון לציון",
+      "address": "Pras Nobel Sports Hall, Rishon LeZion",
       "address_verified": true,
       "iva_home": false,
       "gather_minutes": 60,
@@ -142,8 +142,8 @@
       "day_key": "31jydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 2,
-      "modified": "2026-11-03T12:02:39Z",
+      "seq": 3,
+      "modified": "2026-11-03T12:12:25Z",
       "recently_changed": true
     },
     {
@@ -159,7 +159,7 @@
       "source_url": "https://www.iva.org.il/game-zone/?GameId=c3kydY",
       "origin": "scraped",
       "note": "",
-      "address": "הנרי קיסינג'ר 5 ראשון לציון",
+      "address": "Pras Nobel Sports Hall, Rishon LeZion",
       "address_verified": true,
       "iva_home": true,
       "gather_minutes": 60,
@@ -169,8 +169,8 @@
       "day_key": "31jydY",
       "day_index": 1,
       "day_size": 2,
-      "seq": 1,
-      "modified": "2026-11-03T12:02:39Z",
+      "seq": 2,
+      "modified": "2026-11-03T12:12:25Z",
       "recently_changed": true
     },
     {
@@ -497,7 +497,7 @@
       "key": "31jydY",
       "date": "2026-12-25",
       "venue": "פרס נובל ראשל\"צ",
-      "address": "הנרי קיסינג'ר 5 ראשון לציון",
+      "address": "Pras Nobel Sports Hall, Rishon LeZion",
       "address_verified": true,
       "home": false,
       "gather": "11:30",
@@ -513,8 +513,8 @@
         "c3kydY"
       ],
       "status": "scheduled",
-      "seq": 2,
-      "modified": "2026-11-03T12:02:39Z",
+      "seq": 3,
+      "modified": "2026-11-03T12:12:25Z",
       "recently_changed": true
     },
     {
