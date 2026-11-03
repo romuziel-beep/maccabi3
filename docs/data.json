@@ -2,8 +2,8 @@
   "team": "מכבי 3",
   "season": "תשפ\"ז",
   "league": "ליגת נערים ב' (U15)",
-  "checked_at": "2026-11-03T11:11:50Z",
-  "built_at": "2026-11-03T11:11:51Z",
+  "checked_at": "2026-11-03T11:21:17Z",
+  "built_at": "2026-11-03T11:21:18Z",
   "stale_hours": 36,
   "scrape": {
     "configured": true,
@@ -27,16 +27,16 @@
       "address": "",
       "address_verified": false,
       "iva_home": false,
-      "gather_minutes": 30,
-      "gather": "12:00",
+      "gather_minutes": 60,
+      "gather": "11:30",
       "duration_min": 75,
       "conflicts": [],
       "day_key": "da1ydX",
       "day_index": 0,
       "day_size": 2,
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "id": "f52ydX",
@@ -54,7 +54,7 @@
       "address": "",
       "address_verified": false,
       "iva_home": true,
-      "gather_minutes": 30,
+      "gather_minutes": 60,
       "gather": null,
       "duration_min": 75,
       "conflicts": [],
@@ -81,16 +81,16 @@
       "address": "אנטיגונס 6, תל אביב",
       "address_verified": true,
       "iva_home": true,
-      "gather_minutes": 30,
-      "gather": "13:00",
+      "gather_minutes": 60,
+      "gather": "12:30",
       "duration_min": 75,
       "conflicts": [],
       "day_key": "bfaydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "id": "c1cydY",
@@ -108,7 +108,7 @@
       "address": "אנטיגונס 6, תל אביב",
       "address_verified": true,
       "iva_home": true,
-      "gather_minutes": 30,
+      "gather_minutes": 60,
       "gather": null,
       "duration_min": 75,
       "conflicts": [],
@@ -135,16 +135,16 @@
       "address": "",
       "address_verified": false,
       "iva_home": false,
-      "gather_minutes": 30,
-      "gather": "12:00",
+      "gather_minutes": 60,
+      "gather": "11:30",
       "duration_min": 75,
       "conflicts": [],
       "day_key": "31jydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "id": "c3kydY",
@@ -162,7 +162,7 @@
       "address": "",
       "address_verified": false,
       "iva_home": true,
-      "gather_minutes": 30,
+      "gather_minutes": 60,
       "gather": null,
       "duration_min": 75,
       "conflicts": [],
@@ -189,16 +189,16 @@
       "address": "אנטיגונס 6, תל אביב",
       "address_verified": true,
       "iva_home": true,
-      "gather_minutes": 30,
-      "gather": "13:00",
+      "gather_minutes": 60,
+      "gather": "12:30",
       "duration_min": 75,
       "conflicts": [],
       "day_key": "5bvydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "id": "fcxydY",
@@ -216,7 +216,7 @@
       "address": "אנטיגונס 6, תל אביב",
       "address_verified": true,
       "iva_home": true,
-      "gather_minutes": 30,
+      "gather_minutes": 60,
       "gather": null,
       "duration_min": 75,
       "conflicts": [],
@@ -243,16 +243,16 @@
       "address": "אנטיגונס 6, תל אביב",
       "address_verified": true,
       "iva_home": true,
-      "gather_minutes": 30,
-      "gather": "13:00",
+      "gather_minutes": 60,
+      "gather": "12:30",
       "duration_min": 75,
       "conflicts": [],
       "day_key": "f7BydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "id": "53DydY",
@@ -270,7 +270,7 @@
       "address": "אנטיגונס 6, תל אביב",
       "address_verified": true,
       "iva_home": false,
-      "gather_minutes": 30,
+      "gather_minutes": 60,
       "gather": null,
       "duration_min": 75,
       "conflicts": [],
@@ -297,16 +297,16 @@
       "address": "",
       "address_verified": false,
       "iva_home": false,
-      "gather_minutes": 30,
-      "gather": "11:45",
+      "gather_minutes": 60,
+      "gather": "11:15",
       "duration_min": 75,
       "conflicts": [],
       "day_key": "a4LydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "id": "07MydY",
@@ -324,7 +324,7 @@
       "address": "",
       "address_verified": false,
       "iva_home": false,
-      "gather_minutes": 30,
+      "gather_minutes": 60,
       "gather": null,
       "duration_min": 75,
       "conflicts": [],
@@ -351,16 +351,16 @@
       "address": "",
       "address_verified": false,
       "iva_home": false,
-      "gather_minutes": 30,
-      "gather": "12:30",
+      "gather_minutes": 60,
+      "gather": "12:00",
       "duration_min": 75,
       "conflicts": [],
       "day_key": "0eTydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "id": "50UydY",
@@ -378,7 +378,7 @@
       "address": "",
       "address_verified": false,
       "iva_home": true,
-      "gather_minutes": 30,
+      "gather_minutes": 60,
       "gather": null,
       "duration_min": 75,
       "conflicts": [],
@@ -405,16 +405,16 @@
       "address": "",
       "address_verified": false,
       "iva_home": false,
-      "gather_minutes": 30,
-      "gather": "13:45",
+      "gather_minutes": 60,
+      "gather": "13:15",
       "duration_min": 75,
       "conflicts": [],
       "day_key": "486ydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "id": "1d7ydY",
@@ -432,7 +432,7 @@
       "address": "",
       "address_verified": false,
       "iva_home": false,
-      "gather_minutes": 30,
+      "gather_minutes": 60,
       "gather": null,
       "duration_min": 75,
       "conflicts": [],
@@ -452,7 +452,7 @@
       "address": "",
       "address_verified": false,
       "home": false,
-      "gather": "12:00",
+      "gather": "11:30",
       "start_time": "12:30",
       "end_time": "15:00",
       "teams": [
@@ -465,9 +465,9 @@
         "f52ydX"
       ],
       "status": "scheduled",
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "key": "bfaydY",
@@ -476,7 +476,7 @@
       "address": "אנטיגונס 6, תל אביב",
       "address_verified": true,
       "home": true,
-      "gather": "13:00",
+      "gather": "12:30",
       "start_time": "13:30",
       "end_time": "17:15",
       "teams": [
@@ -489,9 +489,9 @@
         "c1cydY"
       ],
       "status": "scheduled",
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "key": "31jydY",
@@ -500,7 +500,7 @@
       "address": "",
       "address_verified": false,
       "home": false,
-      "gather": "12:00",
+      "gather": "11:30",
       "start_time": "12:30",
       "end_time": "15:00",
       "teams": [
@@ -513,9 +513,9 @@
         "c3kydY"
       ],
       "status": "scheduled",
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "key": "5bvydY",
@@ -524,7 +524,7 @@
       "address": "אנטיגונס 6, תל אביב",
       "address_verified": true,
       "home": true,
-      "gather": "13:00",
+      "gather": "12:30",
       "start_time": "13:30",
       "end_time": "17:15",
       "teams": [
@@ -537,9 +537,9 @@
         "fcxydY"
       ],
       "status": "scheduled",
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "key": "f7BydY",
@@ -548,7 +548,7 @@
       "address": "אנטיגונס 6, תל אביב",
       "address_verified": true,
       "home": true,
-      "gather": "13:00",
+      "gather": "12:30",
       "start_time": "13:30",
       "end_time": "17:15",
       "teams": [
@@ -561,9 +561,9 @@
         "53DydY"
       ],
       "status": "scheduled",
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "key": "a4LydY",
@@ -572,7 +572,7 @@
       "address": "",
       "address_verified": false,
       "home": false,
-      "gather": "11:45",
+      "gather": "11:15",
       "start_time": "12:15",
       "end_time": "14:45",
       "teams": [
@@ -585,9 +585,9 @@
         "07MydY"
       ],
       "status": "scheduled",
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "key": "0eTydY",
@@ -596,7 +596,7 @@
       "address": "",
       "address_verified": false,
       "home": false,
-      "gather": "12:30",
+      "gather": "12:00",
       "start_time": "13:00",
       "end_time": "15:30",
       "teams": [
@@ -609,9 +609,9 @@
         "50UydY"
       ],
       "status": "scheduled",
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     },
     {
       "key": "486ydY",
@@ -620,7 +620,7 @@
       "address": "",
       "address_verified": false,
       "home": false,
-      "gather": "13:45",
+      "gather": "13:15",
       "start_time": "14:15",
       "end_time": "16:45",
       "teams": [
@@ -633,9 +633,9 @@
         "1d7ydY"
       ],
       "status": "scheduled",
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-03T11:21:18Z",
+      "recently_changed": true
     }
   ],
   "holidays": [

@@ -26,14 +26,14 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:da1ydX@maccabi3.schedule
-DTSTAMP:20261103T102559Z
-LAST-MODIFIED:20261103T102559Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Jerusalem:20261113T120000
+DTSTAMP:20261103T112118Z
+LAST-MODIFIED:20261103T112118Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Jerusalem:20261113T113000
 DTEND;TZID=Asia/Jerusalem:20261113T150000
 SUMMARY:מכבי 3: טורניר חוץ (12:30\, 13:45)
 LOCATION:תיכון בליך רמת גן
-DESCRIPTION:כינוס: 12:00\n12:30 נגד בליך עומרי ועידו 
+DESCRIPTION:כינוס: 11:30\n12:30 נגד בליך עומרי ועידו 
  רמת גן (מחזור 217)\n13:45 נגד מכבי תל אביב 2 (מח
  זור 218)\nהקבוצות בטורניר: מכבי תל אביב 3\, ב
  ליך עומרי ועידו רמת גן\, מכבי תל אביב 2\nאו
@@ -44,15 +44,15 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bfaydY@maccabi3.schedule
-DTSTAMP:20261103T102559Z
-LAST-MODIFIED:20261103T102559Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Jerusalem:20261204T130000
+DTSTAMP:20261103T112118Z
+LAST-MODIFIED:20261103T112118Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Jerusalem:20261204T123000
 DTEND;TZID=Asia/Jerusalem:20261204T171500
 SUMMARY:מכבי 3: טורניר בית (13:30\, 16:00)
 LOCATION:יהודה מכבי תל אביב\, אנטיגונס 6\, תל אב
  יב
-DESCRIPTION:כינוס: 13:00\n13:30 נגד מ.כ. גני תקווה (מח
+DESCRIPTION:כינוס: 12:30\n13:30 נגד מ.כ. גני תקווה (מח
  זור 226)\n16:00 נגד הפועל גבעתיים (מחזור 228)\nהק
  בוצות בטורניר: מכבי תל אביב 3\, מ.כ. גני תקו
  וה\, הפועל גבעתיים\nאולם: יהודה מכבי תל אב
@@ -63,14 +63,14 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:31jydY@maccabi3.schedule
-DTSTAMP:20261103T102559Z
-LAST-MODIFIED:20261103T102559Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Jerusalem:20261225T120000
+DTSTAMP:20261103T112118Z
+LAST-MODIFIED:20261103T112118Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Jerusalem:20261225T113000
 DTEND;TZID=Asia/Jerusalem:20261225T150000
 SUMMARY:מכבי 3: טורניר חוץ (12:30\, 13:45)
 LOCATION:פרס נובל ראשל"צ
-DESCRIPTION:כינוס: 12:00\n12:30 נגד מכבי ראשון לציון 
+DESCRIPTION:כינוס: 11:30\n12:30 נגד מכבי ראשון לציון 
  (מחזור 235)\n13:45 נגד מכבי תל אביב 4 (מחזור 236)\n
  הקבוצות בטורניר: מכבי תל אביב 3\, מכבי ראש
  ון לציון\, מכבי תל אביב 4\nאולם: פרס נובל רא
@@ -80,15 +80,15 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:5bvydY@maccabi3.schedule
-DTSTAMP:20261103T102559Z
-LAST-MODIFIED:20261103T102559Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Jerusalem:20270115T130000
+DTSTAMP:20261103T112118Z
+LAST-MODIFIED:20261103T112118Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Jerusalem:20270115T123000
 DTEND;TZID=Asia/Jerusalem:20270115T171500
 SUMMARY:מכבי 3: טורניר בית (13:30\, 16:00)
 LOCATION:יהודה מכבי תל אביב\, אנטיגונס 6\, תל אב
  יב
-DESCRIPTION:כינוס: 13:00\n13:30 נגד מ.ס. רמת אביב 2 (מח
+DESCRIPTION:כינוס: 12:30\n13:30 נגד מ.ס. רמת אביב 2 (מח
  זור 247)\n16:00 נגד ק.ק. תל אביב 1 (מחזור 249)\nהקב
  וצות בטורניר: מכבי תל אביב 3\, מ.ס. רמת אביב
   2\, ק.ק. תל אביב 1\nאולם: יהודה מכבי תל אביב\n
@@ -99,15 +99,15 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:f7BydY@maccabi3.schedule
-DTSTAMP:20261103T102559Z
-LAST-MODIFIED:20261103T102559Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Jerusalem:20270205T130000
+DTSTAMP:20261103T112118Z
+LAST-MODIFIED:20261103T112118Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Jerusalem:20270205T123000
 DTEND;TZID=Asia/Jerusalem:20270205T171500
 SUMMARY:מכבי 3: טורניר בית (13:30\, 16:00)
 LOCATION:יהודה מכבי תל אביב\, אנטיגונס 6\, תל אב
  יב
-DESCRIPTION:כינוס: 13:00\n13:30 נגד בליך עומרי ועידו 
+DESCRIPTION:כינוס: 12:30\n13:30 נגד בליך עומרי ועידו 
  רמת גן (מחזור 253)\n16:00 נגד מכבי תל אביב 2 (מח
  זור 255)\nהקבוצות בטורניר: מכבי תל אביב 3\, ב
  ליך עומרי ועידו רמת גן\, מכבי תל אביב 2\nאו
@@ -119,14 +119,14 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a4LydY@maccabi3.schedule
-DTSTAMP:20261103T102559Z
-LAST-MODIFIED:20261103T102559Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Jerusalem:20270220T114500
+DTSTAMP:20261103T112118Z
+LAST-MODIFIED:20261103T112118Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Jerusalem:20270220T111500
 DTEND;TZID=Asia/Jerusalem:20270220T144500
 SUMMARY:מכבי 3: טורניר חוץ (12:15\, 13:30)
 LOCATION:אולם בי"ס שמעוני גבעתיים
-DESCRIPTION:כינוס: 11:45\n12:15 נגד מ.כ. גני תקווה (מח
+DESCRIPTION:כינוס: 11:15\n12:15 נגד מ.כ. גני תקווה (מח
  זור 263)\n13:30 נגד הפועל גבעתיים (מחזור 264)\nהק
  בוצות בטורניר: מכבי תל אביב 3\, מ.כ. גני תקו
  וה\, הפועל גבעתיים\nאולם: אולם בי"ס שמעוני 
@@ -137,14 +137,14 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:0eTydY@maccabi3.schedule
-DTSTAMP:20261103T102559Z
-LAST-MODIFIED:20261103T102559Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Jerusalem:20270319T123000
+DTSTAMP:20261103T112118Z
+LAST-MODIFIED:20261103T112118Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Jerusalem:20270319T120000
 DTEND;TZID=Asia/Jerusalem:20270319T153000
 SUMMARY:מכבי 3: טורניר חוץ (13:00\, 14:15)
 LOCATION:אולם בית ספר גורדון
-DESCRIPTION:כינוס: 12:30\n13:00 נגד מכבי תל אביב 4 (מח
+DESCRIPTION:כינוס: 12:00\n13:00 נגד מכבי תל אביב 4 (מח
  זור 271)\n14:15 נגד מכבי ראשון לציון (מחזור 272)\
  nהקבוצות בטורניר: מכבי תל אביב 3\, מכבי תל 
  אביב 4\, מכבי ראשון לציון\nאולם: אולם בית ס
@@ -155,14 +155,14 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:486ydY@maccabi3.schedule
-DTSTAMP:20261103T102559Z
-LAST-MODIFIED:20261103T102559Z
-SEQUENCE:0
-DTSTART;TZID=Asia/Jerusalem:20270409T134500
+DTSTAMP:20261103T112118Z
+LAST-MODIFIED:20261103T112118Z
+SEQUENCE:1
+DTSTART;TZID=Asia/Jerusalem:20270409T131500
 DTEND;TZID=Asia/Jerusalem:20270409T164500
 SUMMARY:מכבי 3: טורניר חוץ (14:15\, 15:30)
 LOCATION:אולם תיכון צמרות תל אביב
-DESCRIPTION:כינוס: 13:45\n14:15 נגד ק.ק. תל אביב 1 (מחז
+DESCRIPTION:כינוס: 13:15\n14:15 נגד ק.ק. תל אביב 1 (מחז
  ור 284)\n15:30 נגד מ.ס. רמת אביב 2 (מחזור 285)\nהקב
  וצות בטורניר: מכבי תל אביב 3\, ק.ק. תל אביב 1
  \, מ.ס. רמת אביב 2\nאולם: אולם תיכון צמרות תל
