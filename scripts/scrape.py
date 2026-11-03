@@ -32,8 +32,89 @@ POSTPONED_RE = re.compile(r"נדח")
 CANCELLED_RE = re.compile(r"בוטל")
 
 
+# טבלת הליגה של הבית שלנו (ליגת נערים ב' U15, מרכז ב', קוד בית 593). אפשר לדרוס ב-config.json:
+# "sources": {"standings_url": "..."}. אומת ב-3.11.2026: 9 קבוצות, והקבוצה שלנו נמצאת בה.
+DEFAULT_STANDINGS_URL = "https://www.iva.org.il/league/?LeagueId=5f6cde&cYear=2027&stage=269&group=593"
+
+STANDINGS_HEADERS = {
+    "מקום": "rank", "קבוצה": "team", "נקודות": "points",
+    "נצ'": "wins", "נצחונות": "wins", "הפ'": "losses", "הפסדים": "losses",
+    "הפרש סטים": "diff", "הפרש": "diff", "משחקים": "played", "מש'": "played",
+}
+
+
 class ScrapeError(Exception):
     pass
+
+
+def _num(text: str):
+    """'0', '+3', '-2' וגם '3-' (סימן מינוס בסוף בגלל כיוון כתיבה). אחרת None."""
+    t = text.replace("\u200f", "").replace("\u200e", "").replace("\u2212", "-").strip()
+    m = re.fullmatch(r"([+-]?)(\d+)([+-]?)", t)
+    if not m:
+        return None
+    v = int(m.group(2))
+    return -v if "-" in (m.group(1) + m.group(3)) else v
+
+
+def parse_standings(html: str, team_full_name: str, league_name: str = "", source_url: str = "") -> dict:
+    """מפענח את טבלת הדירוג לפי כותרות העמודות (לא לפי מיקום), כדי לעמוד בשינוי סדר עמודות.
+
+    מבנה שאומת ב-3.11.2026: table.boards-table עם כותרות: מקום | קבוצה | נקודות | נצ' | הפ' | הפרש סטים.
+    אין עמודת 'משחקים', ובכדורעף אין תיקו, ולכן משחקים = נצחונות + הפסדים.
+    """
+    from urllib.parse import parse_qs, urlparse
+
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(html, "html.parser")
+    table, cols = None, {}
+    for t in soup.select("table"):
+        head = t.select_one("thead tr") or t.find("tr")
+        if head is None:
+            continue
+        names = [c.get_text(" ", strip=True).replace("\u05f3", "'") for c in head.find_all(["th", "td"])]
+        mapped = {i: STANDINGS_HEADERS[n] for i, n in enumerate(names) if n in STANDINGS_HEADERS}
+        if "team" in mapped.values() and "points" in mapped.values():
+            table, cols = t, mapped
+            break
+    if table is None:
+        raise ScrapeError("לא נמצאה טבלת דירוג (כותרות 'קבוצה' ו'נקודות'). ייתכן שמבנה הדף השתנה.")
+
+    rows = []
+    body = table.select("tbody tr") or table.find_all("tr")[1:]
+    for tr in body:
+        tds = tr.find_all("td")
+        if len(tds) < len(cols):
+            continue
+        rec: dict = {}
+        for i, field in cols.items():
+            txt = tds[i].get_text(" ", strip=True)
+            rec[field] = txt if field == "team" else _num(txt)
+        if not rec.get("team"):
+            continue
+        if rec.get("played") is None and rec.get("wins") is not None and rec.get("losses") is not None:
+            rec["played"] = rec["wins"] + rec["losses"]
+        rows.append({k: rec.get(k) for k in ("rank", "team", "played", "wins", "losses", "diff", "points")})
+
+    if len(rows) < 2:
+        raise ScrapeError(f"נמצאו {len(rows)} שורות בטבלת הדירוג. חשוד.")
+    for i, r in enumerate(rows, start=1):
+        if r["rank"] is None:
+            r["rank"] = i
+    if team_full_name not in [r["team"] for r in rows]:
+        raise ScrapeError(f"הקבוצה '{team_full_name}' לא בטבלה. כנראה הקישור לבית (group) שגוי.")
+
+    region = ""
+    gid = (parse_qs(urlparse(source_url).query).get("group") or [""])[0]
+    if gid:
+        for a in soup.find_all("a", href=True):
+            if f"group={gid}" in a["href"]:
+                label = a.get_text(" ", strip=True)
+                if label.startswith("ליגת נערים") or (league_name and label.startswith(league_name)):
+                    region = label.replace(league_name, "").strip() if league_name else label
+                    break
+    return {"league": league_name, "region": region, "rows": rows}
 
 
 def parse_games(html: str, team_full_name: str, source_url: str = "") -> list[dict]:
@@ -126,13 +207,34 @@ def parse_games(html: str, team_full_name: str, source_url: str = "") -> list[di
     return games
 
 
-def fetch(url: str) -> str:
+def fetch(url: str, attempts: int = 4, base_delay: float = 8.0) -> str:
+    """משיכה עם ניסיונות חוזרים. שגיאת שרת (5xx), 429, timeout או נפילת חיבור הן בדרך כלל זמניות באתר ההתאחדות."""
+    import time as _time
+
     import requests
 
-    r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "he"}, timeout=30)
-    r.raise_for_status()
-    r.encoding = r.encoding or "utf-8"
-    return r.text
+    last: Exception | None = None
+    for i in range(attempts):
+        try:
+            r = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept-Language": "he"}, timeout=30)
+            if r.status_code >= 500 or r.status_code == 429:
+                raise requests.HTTPError(f"{r.status_code} Server Error for url: {url}", response=r)
+            r.raise_for_status()  # 4xx אחר: לא מנסים שוב
+            r.encoding = r.encoding or "utf-8"
+            return r.text
+        except (requests.Timeout, requests.ConnectionError) as e:
+            last = e
+        except requests.HTTPError as e:
+            code = getattr(e.response, "status_code", 0)
+            if not (code >= 500 or code == 429):
+                raise
+            last = e
+        if i < attempts - 1:
+            wait = base_delay * (2 ** i)
+            print(f"ניסיון {i + 1}/{attempts} נכשל ({type(last).__name__}). מנסה שוב בעוד {wait:.0f} שניות.")
+            _time.sleep(wait)
+    assert last is not None
+    raise last
 
 
 def atomic_write(path: Path, obj) -> None:
@@ -142,8 +244,22 @@ def atomic_write(path: Path, obj) -> None:
     os.replace(tmp, path)
 
 
+def scrape_standings(cfg: dict, now: str, html_path: str | None, out_path: Path) -> None:
+    """דירוג הליגה. כשל לא משפיע על הלוז: הדירוג הקודם נשאר (עם חותמת הזמן הישנה שלו)."""
+    url = (cfg.get("sources") or {}).get("standings_url") or DEFAULT_STANDINGS_URL
+    try:
+        html = Path(html_path).read_text(encoding="utf-8") if html_path else fetch(url)
+        st = parse_standings(html, cfg["team_full_name"], cfg.get("league", ""), url)
+        atomic_write(out_path, {"updated": now, "source": url, **st})
+        print(f"נסרק דירוג: {len(st['rows'])} קבוצות ({st['region'] or 'ללא שם בית'}).")
+    except Exception as e:  # noqa: BLE001
+        print(f"סריקת הדירוג נכשלה (הדירוג הקודם נשאר): {type(e).__name__}: {e}", file=sys.stderr)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--standings-html", help="לפרסר קובץ HTML מקומי של טבלת הדירוג (לבדיקות)")
+    ap.add_argument("--standings-out", default=str(ROOT / "state" / "standings.json"))
     ap.add_argument("--html", help="לפרסר קובץ HTML מקומי במקום להוריד (לבדיקות)")
     ap.add_argument("--out", default=str(ROOT / "data" / "games_scraped.json"))
     ap.add_argument("--status", default=str(ROOT / "state" / "scrape_status.json"))
@@ -191,6 +307,10 @@ def main() -> int:
             {"configured": True, "ok": False, "at": now, "last_ok_at": prev_status.get("last_ok_at"), "count": prev_status.get("count"), "error": f"{type(e).__name__}: {e}"},
         )
         print(f"הסריקה נכשלה: {e}", file=sys.stderr)
+
+    # דירוג: בנפרד מהלוז. בבדיקות עם --html לא יוצאים לרשת אלא אם ניתן --standings-html.
+    if not args.html or args.standings_html:
+        scrape_standings(cfg, now, args.standings_html, Path(args.standings_out))
     return 0
 
 

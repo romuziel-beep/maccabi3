@@ -211,6 +211,31 @@ def update_state(games, state, now_iso):
     return sigs
 
 
+def load_standings(root):
+    """דירוג הליגה (state/standings.json, נכתב ע"י הסורק). פגום או חסר: מתעלמים, לא עוצרים בנייה."""
+    path = root / "state" / "standings.json"
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
+    except (json.JSONDecodeError, OSError, UnicodeDecodeError) as e:
+        print(f"אזהרה: {path} פגום ({e}). הדירוג לא יוצג, הלוז נבנה כרגיל.", file=sys.stderr)
+        return None
+    if not isinstance(raw, dict) or not isinstance(raw.get("rows"), list):
+        return None
+    rows = []
+    for r in raw["rows"]:
+        if not isinstance(r, dict) or not str(r.get("team", "")).strip():
+            continue
+        def n(k):
+            v = r.get(k)
+            return v if isinstance(v, int) and not isinstance(v, bool) else None
+        rows.append({"rank": n("rank"), "team": str(r["team"]).strip(), "played": n("played"),
+                     "wins": n("wins"), "losses": n("losses"), "diff": n("diff"), "points": n("points")})
+    if not rows:
+        return None
+    return {"league": str(raw.get("league", "")), "region": str(raw.get("region", "")),
+            "updated": raw.get("updated"), "rows": rows}
+
+
 def build_days(games, cfg):
     """קיבוץ משחקים ליום טורניר: אותו תאריך ואותו אולם. כינוס אחד, בית/חוץ אחד, 3 קבוצות."""
     groups: dict = {}
@@ -450,10 +475,13 @@ def main() -> int:
     data = {
         "team": cfg["team_name"],
         "season": cfg.get("season", ""),
+        "team_full": cfg.get("team_full_name", cfg["team_name"]),
         "league": cfg.get("league", ""),
+        "standings": load_standings(root),
         "checked_at": checked_at,
         "built_at": now_iso,
         "stale_hours": cfg.get("stale_hours", 36),
+        "warn_after_hours": cfg.get("warn_after_hours", 6),
         "scrape": {"configured": configured, "ok": status.get("ok"), "error": status.get("error")},
         "games": games,
         "days": days,
