@@ -5,7 +5,7 @@
   "league": "ליגת נערים ב' (U15)",
   "timezone": "Asia/Jerusalem",
   "default_duration_min": 75,
-  "default_gather_min": 30,
+  "default_gather_min": 60,
   "stale_hours": 36,
   "school_level": "secondary",
   "sources": {
