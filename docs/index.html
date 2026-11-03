@@ -46,6 +46,9 @@ h2{font-size:1.1rem;margin:28px 0 10px}
 .banner a{color:inherit;font-weight:600}
 
 /* פריסה: לוח שנה + רשימה */
+.topbox{margin-top:12px}
+.topbox .card{margin:0}
+@media (max-width:899px){.topbox{max-width:640px;margin-inline:auto;width:100%}}
 .layout{display:grid;gap:20px;margin-top:4px}
 .tabs{display:flex;gap:6px;margin:16px 0 0;padding:4px;background:var(--card);border:1px solid var(--line);border-radius:14px;max-width:640px;margin-inline:auto}
 .tabs button{flex:1;min-height:44px;border:0;border-radius:10px;background:transparent;color:var(--muted);font:inherit;font-weight:700;cursor:pointer}
@@ -530,11 +533,11 @@ function render(data) {
         if (m !== lastMonth) { list.push(el("div", {class: "month", text: m})); lastMonth = m; }
       } else lastMonth = F.month.format(noon(d.date));
       list.push(dayCard(d, dayGames(d), ctx, i === 0, false));
-      if (i === 0) { const sc = standingsCard(ctx); if (sc) list.push(sc); }
       i++;
     }
   }
-  if (!upcomingDays.length) { const sc = standingsCard(ctx); if (sc) list.push(sc); }
+  const stCard = standingsCard(ctx);
+  const topBox = stCard ? el("div", {class: "topbox"}, stCard) : null;
   list.push(subscribeCard());
   const hol = holidaysCard(ctx);
   if (hol) { list.push(el("h2", {text: "חופשות משרד החינוך"})); list.push(hol); }
@@ -553,7 +556,7 @@ function render(data) {
     onclick: () => { layout.dataset.view = view; tabs.querySelectorAll("button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.view === view))); }}, label);
   const tabs = el("div", {class: "tabs", role: "tablist", "aria-label": "תצוגה"}, tabBtn("cal", "לוח שנה"), tabBtn("list", "רשימה"));
 
-  $app.replaceChildren(...[banner, tabs, layout, foot].filter(Boolean));
+  $app.replaceChildren(...[banner, topBox, tabs, layout, foot].filter(Boolean));
 }
 
 fetch("data.json?v=" + Date.now(), {cache: "no-store"})
