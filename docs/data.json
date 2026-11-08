@@ -6,7 +6,7 @@
   "standings": {
     "league": "ליגת נערים ב' (U15)",
     "region": "מרכז ב'",
-    "updated": "2026-11-08T07:28:23Z",
+    "updated": "2026-11-08T15:20:56Z",
     "rows": [
       {
         "rank": 1,
@@ -91,8 +91,8 @@
       }
     ]
   },
-  "checked_at": "2026-11-08T07:28:23Z",
-  "built_at": "2026-11-08T07:28:27Z",
+  "checked_at": "2026-11-08T15:20:56Z",
+  "built_at": "2026-11-08T15:21:01Z",
   "stale_hours": 36,
   "warn_after_hours": 6,
   "scrape": {
