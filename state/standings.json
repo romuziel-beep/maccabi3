@@ -1,11 +1,65 @@
 {
-  "updated": "2026-11-13T09:40:51Z",
+  "updated": "2026-11-13T17:50:27Z",
   "source": "https://www.iva.org.il/league/?LeagueId=5f6cde&cYear=2027&stage=269&group=593",
   "league": "ליגת נערים ב' (U15)",
   "region": "מרכז ב'",
   "rows": [
     {
       "rank": 1,
+      "team": "מ.ס. רמת אביב 2",
+      "played": 2,
+      "wins": 2,
+      "losses": 0,
+      "diff": 4,
+      "points": 4
+    },
+    {
+      "rank": 2,
+      "team": "ק.ק. תל אביב 1",
+      "played": 2,
+      "wins": 2,
+      "losses": 0,
+      "diff": 3,
+      "points": 4
+    },
+    {
+      "rank": 3,
+      "team": "מכבי תל אביב 4",
+      "played": 2,
+      "wins": 1,
+      "losses": 1,
+      "diff": 1,
+      "points": 3
+    },
+    {
+      "rank": 4,
+      "team": "הפועל גבעתיים",
+      "played": 2,
+      "wins": 1,
+      "losses": 1,
+      "diff": 0,
+      "points": 3
+    },
+    {
+      "rank": 5,
+      "team": "מ.כ. גני תקווה",
+      "played": 2,
+      "wins": 0,
+      "losses": 2,
+      "diff": -4,
+      "points": 2
+    },
+    {
+      "rank": 6,
+      "team": "מכבי ראשון לציון",
+      "played": 2,
+      "wins": 0,
+      "losses": 2,
+      "diff": -4,
+      "points": 2
+    },
+    {
+      "rank": 7,
       "team": "בליך עומרי ועידו רמת גן",
       "played": 0,
       "wins": 0,
@@ -14,7 +68,7 @@
       "points": 0
     },
     {
-      "rank": 2,
+      "rank": 8,
       "team": "מכבי תל אביב 3",
       "played": 0,
       "wins": 0,
@@ -23,62 +77,8 @@
       "points": 0
     },
     {
-      "rank": 3,
-      "team": "מכבי תל אביב 2",
-      "played": 0,
-      "wins": 0,
-      "losses": 0,
-      "diff": 0,
-      "points": 0
-    },
-    {
-      "rank": 4,
-      "team": "מ.ס. רמת אביב 2",
-      "played": 0,
-      "wins": 0,
-      "losses": 0,
-      "diff": 0,
-      "points": 0
-    },
-    {
-      "rank": 5,
-      "team": "הפועל גבעתיים",
-      "played": 0,
-      "wins": 0,
-      "losses": 0,
-      "diff": 0,
-      "points": 0
-    },
-    {
-      "rank": 6,
-      "team": "מכבי ראשון לציון",
-      "played": 0,
-      "wins": 0,
-      "losses": 0,
-      "diff": 0,
-      "points": 0
-    },
-    {
-      "rank": 7,
-      "team": "מכבי תל אביב 4",
-      "played": 0,
-      "wins": 0,
-      "losses": 0,
-      "diff": 0,
-      "points": 0
-    },
-    {
-      "rank": 8,
-      "team": "מ.כ. גני תקווה",
-      "played": 0,
-      "wins": 0,
-      "losses": 0,
-      "diff": 0,
-      "points": 0
-    },
-    {
       "rank": 9,
-      "team": "ק.ק. תל אביב 1",
+      "team": "מכבי תל אביב 2",
       "played": 0,
       "wins": 0,
       "losses": 0,
