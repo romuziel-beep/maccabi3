@@ -26,20 +26,20 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:da1ydX@maccabi3.schedule
-DTSTAMP:20261103T120239Z
-LAST-MODIFIED:20261103T120239Z
-SEQUENCE:2
+DTSTAMP:20261113T094057Z
+LAST-MODIFIED:20261113T094057Z
+SEQUENCE:3
 DTSTART;TZID=Asia/Jerusalem:20261113T113000
 DTEND;TZID=Asia/Jerusalem:20261113T150000
 SUMMARY:מכבי 3: טורניר חוץ (12:30\, 13:45)
-LOCATION:תיכון בליך רמת גן\, המאה ואחד 22 רמת גן
+LOCATION:בי"ס עתיד רמת גן
 DESCRIPTION:כינוס: 11:30\n12:30 נגד בליך עומרי ועידו 
  רמת גן (מחזור 217)\n13:45 נגד מכבי תל אביב 2 (מח
  זור 218)\nהקבוצות בטורניר: מכבי תל אביב 3\, ב
  ליך עומרי ועידו רמת גן\, מכבי תל אביב 2\nאו
- לם: תיכון בליך רמת גן\nכתובת: המאה ואחד 22 ר
- מת גן\nWaze: https://waze.com/ul?q=%D7%94%D7%9E%D7%90%D7%94%20%D7%95%D
- 7%90%D7%97%D7%93%2022%20%D7%A8%D7%9E%D7%AA%20%D7%92%D7%9F&navigate=yes
+ לם: בי"ס עתיד רמת גן\nWaze: https://waze.com/ul?q=%D7%91%D7%
+ 99%22%D7%A1%20%D7%A2%D7%AA%D7%99%D7%93%20%D7%A8%D7%9E%D7%AA%20%D7%92%D7%9F
+ &navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

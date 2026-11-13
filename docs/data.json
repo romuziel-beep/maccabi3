@@ -6,7 +6,7 @@
   "standings": {
     "league": "ליגת נערים ב' (U15)",
     "region": "מרכז ב'",
-    "updated": "2026-11-13T01:54:54Z",
+    "updated": "2026-11-13T09:40:51Z",
     "rows": [
       {
         "rank": 1,
@@ -91,8 +91,8 @@
       }
     ]
   },
-  "checked_at": "2026-11-13T01:54:54Z",
-  "built_at": "2026-11-13T01:55:00Z",
+  "checked_at": "2026-11-13T09:40:51Z",
+  "built_at": "2026-11-13T09:40:57Z",
   "stale_hours": 36,
   "warn_after_hours": 6,
   "scrape": {
@@ -107,15 +107,15 @@
       "time": "12:30",
       "opponent": "בליך עומרי ועידו רמת גן",
       "home": false,
-      "venue": "תיכון בליך רמת גן",
+      "venue": "בי\"ס עתיד רמת גן",
       "round": 217,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=da1ydX",
       "origin": "scraped",
       "note": "",
-      "address": "המאה ואחד 22 רמת גן",
-      "address_verified": true,
+      "address": "",
+      "address_verified": false,
       "iva_home": false,
       "gather_minutes": 60,
       "gather": "11:30",
@@ -124,9 +124,9 @@
       "day_key": "da1ydX",
       "day_index": 0,
       "day_size": 2,
-      "seq": 2,
-      "modified": "2026-11-03T12:02:39Z",
-      "recently_changed": false
+      "seq": 3,
+      "modified": "2026-11-13T09:40:57Z",
+      "recently_changed": true
     },
     {
       "id": "f52ydX",
@@ -134,15 +134,15 @@
       "time": "13:45",
       "opponent": "מכבי תל אביב 2",
       "home": false,
-      "venue": "תיכון בליך רמת גן",
+      "venue": "בי\"ס עתיד רמת גן",
       "round": 218,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=f52ydX",
       "origin": "scraped",
       "note": "",
-      "address": "המאה ואחד 22 רמת גן",
-      "address_verified": true,
+      "address": "",
+      "address_verified": false,
       "iva_home": true,
       "gather_minutes": 60,
       "gather": null,
@@ -151,9 +151,9 @@
       "day_key": "da1ydX",
       "day_index": 1,
       "day_size": 2,
-      "seq": 1,
-      "modified": "2026-11-03T12:02:39Z",
-      "recently_changed": false
+      "seq": 2,
+      "modified": "2026-11-13T09:40:57Z",
+      "recently_changed": true
     },
     {
       "id": "bfaydY",
@@ -538,9 +538,9 @@
     {
       "key": "da1ydX",
       "date": "2026-11-13",
-      "venue": "תיכון בליך רמת גן",
-      "address": "המאה ואחד 22 רמת גן",
-      "address_verified": true,
+      "venue": "בי\"ס עתיד רמת גן",
+      "address": "",
+      "address_verified": false,
       "home": false,
       "gather": "11:30",
       "start_time": "12:30",
@@ -555,9 +555,9 @@
         "f52ydX"
       ],
       "status": "scheduled",
-      "seq": 2,
-      "modified": "2026-11-03T12:02:39Z",
-      "recently_changed": false
+      "seq": 3,
+      "modified": "2026-11-13T09:40:57Z",
+      "recently_changed": true
     },
     {
       "key": "bfaydY",

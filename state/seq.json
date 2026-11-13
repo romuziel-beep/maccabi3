@@ -73,9 +73,9 @@
   },
   "da1ydX": {
     "first_seen": "2026-11-03T10:25:59Z",
-    "modified": "2026-11-03T12:02:39Z",
-    "seq": 2,
-    "sig": "12f6ef09897228a3214db94a47f40d5a29f49c7a"
+    "modified": "2026-11-13T09:40:57Z",
+    "seq": 3,
+    "sig": "3637f6a7dd9a583c222b293467f7a7ac3407ff1a"
   },
   "day:0eTydY": {
     "first_seen": "2026-11-03T10:25:59Z",
@@ -115,9 +115,9 @@
   },
   "day:da1ydX": {
     "first_seen": "2026-11-03T10:25:59Z",
-    "modified": "2026-11-03T12:02:39Z",
-    "seq": 2,
-    "sig": "426e18aadd9854854925a3b178b395481e741f87"
+    "modified": "2026-11-13T09:40:57Z",
+    "seq": 3,
+    "sig": "16d19c0bfbf7cc5919e891f2914fd5a3d1a2f0df"
   },
   "day:f7BydY": {
     "first_seen": "2026-11-03T10:25:59Z",
@@ -127,9 +127,9 @@
   },
   "f52ydX": {
     "first_seen": "2026-11-03T10:25:59Z",
-    "modified": "2026-11-03T12:02:39Z",
-    "seq": 1,
-    "sig": "7b2ad5727e9bf5a2d421af5e37871424a01bf4b9"
+    "modified": "2026-11-13T09:40:57Z",
+    "seq": 2,
+    "sig": "716c2cf674810bcc7e0cc9b53896d62bfc1d77b2"
   },
   "f7BydY": {
     "first_seen": "2026-11-03T10:25:59Z",
