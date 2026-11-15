@@ -1,10 +1,10 @@
 {
-  "scraped_at": "2026-11-15T14:49:33Z",
+  "scraped_at": "2026-11-15T20:25:56Z",
   "source": "https://www.iva.org.il/team/?TeamId=f0kjdu&cYear=2027",
   "games": [
     {
       "id": "da1ydX",
-      "date": "2026-11-13",
+      "date": "2026-11-20",
       "time": "12:30",
       "opponent": "בליך עומרי ועידו רמת גן",
       "home": false,
@@ -16,7 +16,7 @@
     },
     {
       "id": "f52ydX",
-      "date": "2026-11-13",
+      "date": "2026-11-20",
       "time": "13:45",
       "opponent": "מכבי תל אביב 2",
       "home": true,
