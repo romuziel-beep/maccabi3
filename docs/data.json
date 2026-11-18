@@ -6,7 +6,7 @@
   "standings": {
     "league": "ליגת נערים ב' (U15)",
     "region": "מרכז ב'",
-    "updated": "2026-11-18T11:54:24Z",
+    "updated": "2026-11-18T20:39:36Z",
     "rows": [
       {
         "rank": 1,
@@ -91,8 +91,8 @@
       }
     ]
   },
-  "checked_at": "2026-11-18T11:54:24Z",
-  "built_at": "2026-11-18T11:54:30Z",
+  "checked_at": "2026-11-18T20:39:36Z",
+  "built_at": "2026-11-18T20:39:42Z",
   "stale_hours": 36,
   "warn_after_hours": 6,
   "scrape": {
@@ -108,7 +108,7 @@
       "opponent": "בליך עומרי ועידו רמת גן",
       "home": false,
       "venue": "בי\"ס עתיד רמת גן",
-      "round": 217,
+      "round": 1,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=da1ydX",
@@ -124,8 +124,8 @@
       "day_key": "da1ydX",
       "day_index": 0,
       "day_size": 2,
-      "seq": 4,
-      "modified": "2026-11-15T20:26:01Z",
+      "seq": 5,
+      "modified": "2026-11-18T20:39:42Z",
       "recently_changed": true
     },
     {
@@ -135,7 +135,7 @@
       "opponent": "מכבי תל אביב 2",
       "home": false,
       "venue": "בי\"ס עתיד רמת גן",
-      "round": 218,
+      "round": 1,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=f52ydX",
@@ -151,8 +151,8 @@
       "day_key": "da1ydX",
       "day_index": 1,
       "day_size": 2,
-      "seq": 3,
-      "modified": "2026-11-15T20:26:01Z",
+      "seq": 4,
+      "modified": "2026-11-18T20:39:42Z",
       "recently_changed": true
     },
     {
@@ -162,7 +162,7 @@
       "opponent": "מ.כ. גני תקווה",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
-      "round": 226,
+      "round": 4,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=bfaydY",
@@ -178,9 +178,9 @@
       "day_key": "bfaydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 1,
-      "modified": "2026-11-03T11:21:18Z",
-      "recently_changed": false
+      "seq": 2,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "id": "c1cydY",
@@ -189,7 +189,7 @@
       "opponent": "הפועל גבעתיים",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
-      "round": 228,
+      "round": 4,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=c1cydY",
@@ -205,9 +205,9 @@
       "day_key": "bfaydY",
       "day_index": 1,
       "day_size": 2,
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "id": "31jydY",
@@ -216,7 +216,7 @@
       "opponent": "מכבי ראשון לציון",
       "home": false,
       "venue": "פרס נובל ראשל\"צ",
-      "round": 235,
+      "round": 7,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=31jydY",
@@ -232,9 +232,9 @@
       "day_key": "31jydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 3,
-      "modified": "2026-11-03T12:12:25Z",
-      "recently_changed": false
+      "seq": 4,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "id": "c3kydY",
@@ -243,7 +243,7 @@
       "opponent": "מכבי תל אביב 4",
       "home": false,
       "venue": "פרס נובל ראשל\"צ",
-      "round": 236,
+      "round": 7,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=c3kydY",
@@ -259,9 +259,9 @@
       "day_key": "31jydY",
       "day_index": 1,
       "day_size": 2,
-      "seq": 2,
-      "modified": "2026-11-03T12:12:25Z",
-      "recently_changed": false
+      "seq": 3,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "id": "5bvydY",
@@ -270,7 +270,7 @@
       "opponent": "מ.ס. רמת אביב 2",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
-      "round": 247,
+      "round": 11,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=5bvydY",
@@ -286,9 +286,9 @@
       "day_key": "5bvydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 1,
-      "modified": "2026-11-03T11:21:18Z",
-      "recently_changed": false
+      "seq": 2,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "id": "fcxydY",
@@ -297,7 +297,7 @@
       "opponent": "ק.ק. תל אביב 1",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
-      "round": 249,
+      "round": 11,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=fcxydY",
@@ -313,9 +313,9 @@
       "day_key": "5bvydY",
       "day_index": 1,
       "day_size": 2,
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "id": "f7BydY",
@@ -324,7 +324,7 @@
       "opponent": "בליך עומרי ועידו רמת גן",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
-      "round": 253,
+      "round": 13,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=f7BydY",
@@ -340,9 +340,9 @@
       "day_key": "f7BydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 1,
-      "modified": "2026-11-03T11:21:18Z",
-      "recently_changed": false
+      "seq": 2,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "id": "53DydY",
@@ -351,7 +351,7 @@
       "opponent": "מכבי תל אביב 2",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
-      "round": 255,
+      "round": 13,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=53DydY",
@@ -367,9 +367,9 @@
       "day_key": "f7BydY",
       "day_index": 1,
       "day_size": 2,
-      "seq": 0,
-      "modified": "2026-11-03T10:25:59Z",
-      "recently_changed": false
+      "seq": 1,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "id": "a4LydY",
@@ -378,7 +378,7 @@
       "opponent": "מ.כ. גני תקווה",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
-      "round": 263,
+      "round": 16,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=a4LydY",
@@ -394,8 +394,8 @@
       "day_key": "a4LydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 3,
-      "modified": "2026-11-18T11:54:30Z",
+      "seq": 4,
+      "modified": "2026-11-18T20:39:42Z",
       "recently_changed": true
     },
     {
@@ -405,7 +405,7 @@
       "opponent": "הפועל גבעתיים",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
-      "round": 264,
+      "round": 16,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=07MydY",
@@ -421,8 +421,8 @@
       "day_key": "a4LydY",
       "day_index": 1,
       "day_size": 2,
-      "seq": 2,
-      "modified": "2026-11-18T11:54:30Z",
+      "seq": 3,
+      "modified": "2026-11-18T20:39:42Z",
       "recently_changed": true
     },
     {
@@ -432,7 +432,7 @@
       "opponent": "מכבי תל אביב 4",
       "home": false,
       "venue": "אולם בית ספר גורדון",
-      "round": 271,
+      "round": 19,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=0eTydY",
@@ -448,9 +448,9 @@
       "day_key": "0eTydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 2,
-      "modified": "2026-11-03T12:02:39Z",
-      "recently_changed": false
+      "seq": 3,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "id": "50UydY",
@@ -459,7 +459,7 @@
       "opponent": "מכבי ראשון לציון",
       "home": false,
       "venue": "אולם בית ספר גורדון",
-      "round": 272,
+      "round": 19,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=50UydY",
@@ -475,9 +475,9 @@
       "day_key": "0eTydY",
       "day_index": 1,
       "day_size": 2,
-      "seq": 1,
-      "modified": "2026-11-03T12:02:39Z",
-      "recently_changed": false
+      "seq": 2,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "id": "486ydY",
@@ -486,7 +486,7 @@
       "opponent": "ק.ק. תל אביב 1",
       "home": false,
       "venue": "אולם תיכון צמרות תל אביב",
-      "round": 284,
+      "round": 23,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=486ydY",
@@ -502,9 +502,9 @@
       "day_key": "486ydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 2,
-      "modified": "2026-11-03T12:02:39Z",
-      "recently_changed": false
+      "seq": 3,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "id": "1d7ydY",
@@ -513,7 +513,7 @@
       "opponent": "מ.ס. רמת אביב 2",
       "home": false,
       "venue": "אולם תיכון צמרות תל אביב",
-      "round": 285,
+      "round": 23,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=1d7ydY",
@@ -529,9 +529,9 @@
       "day_key": "486ydY",
       "day_index": 1,
       "day_size": 2,
-      "seq": 1,
-      "modified": "2026-11-03T12:02:39Z",
-      "recently_changed": false
+      "seq": 2,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     }
   ],
   "days": [
@@ -555,8 +555,8 @@
         "f52ydX"
       ],
       "status": "scheduled",
-      "seq": 4,
-      "modified": "2026-11-15T20:26:01Z",
+      "seq": 5,
+      "modified": "2026-11-18T20:39:42Z",
       "recently_changed": true
     },
     {
@@ -579,9 +579,9 @@
         "c1cydY"
       ],
       "status": "scheduled",
-      "seq": 1,
-      "modified": "2026-11-03T11:21:18Z",
-      "recently_changed": false
+      "seq": 2,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "key": "31jydY",
@@ -603,9 +603,9 @@
         "c3kydY"
       ],
       "status": "scheduled",
-      "seq": 3,
-      "modified": "2026-11-03T12:12:25Z",
-      "recently_changed": false
+      "seq": 4,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "key": "5bvydY",
@@ -627,9 +627,9 @@
         "fcxydY"
       ],
       "status": "scheduled",
-      "seq": 1,
-      "modified": "2026-11-03T11:21:18Z",
-      "recently_changed": false
+      "seq": 2,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "key": "f7BydY",
@@ -651,9 +651,9 @@
         "53DydY"
       ],
       "status": "scheduled",
-      "seq": 1,
-      "modified": "2026-11-03T11:21:18Z",
-      "recently_changed": false
+      "seq": 2,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "key": "a4LydY",
@@ -675,8 +675,8 @@
         "07MydY"
       ],
       "status": "scheduled",
-      "seq": 3,
-      "modified": "2026-11-18T11:54:30Z",
+      "seq": 4,
+      "modified": "2026-11-18T20:39:42Z",
       "recently_changed": true
     },
     {
@@ -699,9 +699,9 @@
         "50UydY"
       ],
       "status": "scheduled",
-      "seq": 2,
-      "modified": "2026-11-03T12:02:39Z",
-      "recently_changed": false
+      "seq": 3,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     },
     {
       "key": "486ydY",
@@ -723,9 +723,9 @@
         "1d7ydY"
       ],
       "status": "scheduled",
-      "seq": 2,
-      "modified": "2026-11-03T12:02:39Z",
-      "recently_changed": false
+      "seq": 3,
+      "modified": "2026-11-18T20:39:42Z",
+      "recently_changed": true
     }
   ],
   "holidays": [

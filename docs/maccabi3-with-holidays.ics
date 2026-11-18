@@ -26,154 +26,152 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:da1ydX@maccabi3.schedule
-DTSTAMP:20261115T202601Z
-LAST-MODIFIED:20261115T202601Z
-SEQUENCE:4
+DTSTAMP:20261118T203942Z
+LAST-MODIFIED:20261118T203942Z
+SEQUENCE:5
 DTSTART;TZID=Asia/Jerusalem:20261120T113000
 DTEND;TZID=Asia/Jerusalem:20261120T150000
 SUMMARY:מכבי 3: טורניר חוץ (12:30\, 13:45)
 LOCATION:בי"ס עתיד רמת גן
 DESCRIPTION:כינוס: 11:30\n12:30 נגד בליך עומרי ועידו 
- רמת גן (מחזור 217)\n13:45 נגד מכבי תל אביב 2 (מח
- זור 218)\nהקבוצות בטורניר: מכבי תל אביב 3\, ב
- ליך עומרי ועידו רמת גן\, מכבי תל אביב 2\nאו
- לם: בי"ס עתיד רמת גן\nWaze: https://waze.com/ul?q=%D7%91%D7%
- 99%22%D7%A1%20%D7%A2%D7%AA%D7%99%D7%93%20%D7%A8%D7%9E%D7%AA%20%D7%92%D7%9F
- &navigate=yes
+ רמת גן (מחזור 1)\n13:45 נגד מכבי תל אביב 2 (מחז
+ ור 1)\nהקבוצות בטורניר: מכבי תל אביב 3\, בלי
+ ך עומרי ועידו רמת גן\, מכבי תל אביב 2\nאולם:
+  בי"ס עתיד רמת גן\nWaze: https://waze.com/ul?q=%D7%91%D7%99%22
+ %D7%A1%20%D7%A2%D7%AA%D7%99%D7%93%20%D7%A8%D7%9E%D7%AA%20%D7%92%D7%9F&navi
+ gate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bfaydY@maccabi3.schedule
-DTSTAMP:20261103T112118Z
-LAST-MODIFIED:20261103T112118Z
-SEQUENCE:1
+DTSTAMP:20261118T203942Z
+LAST-MODIFIED:20261118T203942Z
+SEQUENCE:2
 DTSTART;TZID=Asia/Jerusalem:20261204T123000
 DTEND;TZID=Asia/Jerusalem:20261204T171500
 SUMMARY:מכבי 3: טורניר בית (13:30\, 16:00)
 LOCATION:יהודה מכבי תל אביב\, אנטיגונס 6\, תל אב
  יב
 DESCRIPTION:כינוס: 12:30\n13:30 נגד מ.כ. גני תקווה (מח
- זור 226)\n16:00 נגד הפועל גבעתיים (מחזור 228)\nהק
- בוצות בטורניר: מכבי תל אביב 3\, מ.כ. גני תקו
- וה\, הפועל גבעתיים\nאולם: יהודה מכבי תל אב
- יב\nכתובת: אנטיגונס 6\, תל אביב\nWaze: https://waze.c
- om/ul?q=%D7%90%D7%A0%D7%98%D7%99%D7%92%D7%95%D7%A0%D7%A1%206%2C%20%D7%AA%D
- 7%9C%20%D7%90%D7%91%D7%99%D7%91&navigate=yes
+ זור 4)\n16:00 נגד הפועל גבעתיים (מחזור 4)\nהקבו
+ צות בטורניר: מכבי תל אביב 3\, מ.כ. גני תקווה
+ \, הפועל גבעתיים\nאולם: יהודה מכבי תל אביב\
+ nכתובת: אנטיגונס 6\, תל אביב\nWaze: https://waze.com/ul
+ ?q=%D7%90%D7%A0%D7%98%D7%99%D7%92%D7%95%D7%A0%D7%A1%206%2C%20%D7%AA%D7%9C%
+ 20%D7%90%D7%91%D7%99%D7%91&navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:31jydY@maccabi3.schedule
-DTSTAMP:20261103T121225Z
-LAST-MODIFIED:20261103T121225Z
-SEQUENCE:3
+DTSTAMP:20261118T203942Z
+LAST-MODIFIED:20261118T203942Z
+SEQUENCE:4
 DTSTART;TZID=Asia/Jerusalem:20261225T113000
 DTEND;TZID=Asia/Jerusalem:20261225T150000
 SUMMARY:מכבי 3: טורניר חוץ (12:30\, 13:45)
 LOCATION:פרס נובל ראשל"צ\, Pras Nobel Sports Hall\, Rishon LeZi
  on
 DESCRIPTION:כינוס: 11:30\n12:30 נגד מכבי ראשון לציון 
- (מחזור 235)\n13:45 נגד מכבי תל אביב 4 (מחזור 236)\n
- הקבוצות בטורניר: מכבי תל אביב 3\, מכבי ראש
- ון לציון\, מכבי תל אביב 4\nאולם: פרס נובל רא
- של"צ\nכתובת: Pras Nobel Sports Hall\, Rishon LeZion\nWaze: https:/
- /waze.com/ul?q=Pras%20Nobel%20Sports%20Hall%2C%20Rishon%20LeZion&navigate=
- yes
+ (מחזור 7)\n13:45 נגד מכבי תל אביב 4 (מחזור 7)\nהק
+ בוצות בטורניר: מכבי תל אביב 3\, מכבי ראשון 
+ לציון\, מכבי תל אביב 4\nאולם: פרס נובל ראשל"
+ צ\nכתובת: Pras Nobel Sports Hall\, Rishon LeZion\nWaze: https://waze
+ .com/ul?q=Pras%20Nobel%20Sports%20Hall%2C%20Rishon%20LeZion&navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:5bvydY@maccabi3.schedule
-DTSTAMP:20261103T112118Z
-LAST-MODIFIED:20261103T112118Z
-SEQUENCE:1
+DTSTAMP:20261118T203942Z
+LAST-MODIFIED:20261118T203942Z
+SEQUENCE:2
 DTSTART;TZID=Asia/Jerusalem:20270115T123000
 DTEND;TZID=Asia/Jerusalem:20270115T171500
 SUMMARY:מכבי 3: טורניר בית (13:30\, 16:00)
 LOCATION:יהודה מכבי תל אביב\, אנטיגונס 6\, תל אב
  יב
 DESCRIPTION:כינוס: 12:30\n13:30 נגד מ.ס. רמת אביב 2 (מח
- זור 247)\n16:00 נגד ק.ק. תל אביב 1 (מחזור 249)\nהקב
- וצות בטורניר: מכבי תל אביב 3\, מ.ס. רמת אביב
-  2\, ק.ק. תל אביב 1\nאולם: יהודה מכבי תל אביב\n
- כתובת: אנטיגונס 6\, תל אביב\nWaze: https://waze.com/ul?
- q=%D7%90%D7%A0%D7%98%D7%99%D7%92%D7%95%D7%A0%D7%A1%206%2C%20%D7%AA%D7%9C%2
- 0%D7%90%D7%91%D7%99%D7%91&navigate=yes
+ זור 11)\n16:00 נגד ק.ק. תל אביב 1 (מחזור 11)\nהקבו
+ צות בטורניר: מכבי תל אביב 3\, מ.ס. רמת אביב 2
+ \, ק.ק. תל אביב 1\nאולם: יהודה מכבי תל אביב\nכ
+ תובת: אנטיגונס 6\, תל אביב\nWaze: https://waze.com/ul?q=
+ %D7%90%D7%A0%D7%98%D7%99%D7%92%D7%95%D7%A0%D7%A1%206%2C%20%D7%AA%D7%9C%20%
+ D7%90%D7%91%D7%99%D7%91&navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:f7BydY@maccabi3.schedule
-DTSTAMP:20261103T112118Z
-LAST-MODIFIED:20261103T112118Z
-SEQUENCE:1
+DTSTAMP:20261118T203942Z
+LAST-MODIFIED:20261118T203942Z
+SEQUENCE:2
 DTSTART;TZID=Asia/Jerusalem:20270205T123000
 DTEND;TZID=Asia/Jerusalem:20270205T171500
 SUMMARY:מכבי 3: טורניר בית (13:30\, 16:00)
 LOCATION:יהודה מכבי תל אביב\, אנטיגונס 6\, תל אב
  יב
 DESCRIPTION:כינוס: 12:30\n13:30 נגד בליך עומרי ועידו 
- רמת גן (מחזור 253)\n16:00 נגד מכבי תל אביב 2 (מח
- זור 255)\nהקבוצות בטורניר: מכבי תל אביב 3\, ב
- ליך עומרי ועידו רמת גן\, מכבי תל אביב 2\nאו
- לם: יהודה מכבי תל אביב\nכתובת: אנטיגונס 6\, 
- תל אביב\nWaze: https://waze.com/ul?q=%D7%90%D7%A0%D7%98%D7%99%D7%92%
- D7%95%D7%A0%D7%A1%206%2C%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91&navigat
- e=yes
+ רמת גן (מחזור 13)\n16:00 נגד מכבי תל אביב 2 (מחז
+ ור 13)\nהקבוצות בטורניר: מכבי תל אביב 3\, בלי
+ ך עומרי ועידו רמת גן\, מכבי תל אביב 2\nאולם:
+  יהודה מכבי תל אביב\nכתובת: אנטיגונס 6\, תל 
+ אביב\nWaze: https://waze.com/ul?q=%D7%90%D7%A0%D7%98%D7%99%D7%92%D7%95
+ %D7%A0%D7%A1%206%2C%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91&navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a4LydY@maccabi3.schedule
-DTSTAMP:20261118T115430Z
-LAST-MODIFIED:20261118T115430Z
-SEQUENCE:3
+DTSTAMP:20261118T203942Z
+LAST-MODIFIED:20261118T203942Z
+SEQUENCE:4
 DTSTART;TZID=Asia/Jerusalem:20270219T111500
 DTEND;TZID=Asia/Jerusalem:20270219T144500
 SUMMARY:מכבי 3: טורניר בית (12:15\, 13:30)
 LOCATION:יהודה מכבי תל אביב\, אנטיגונס 6\, תל אב
  יב
 DESCRIPTION:כינוס: 11:15\n12:15 נגד מ.כ. גני תקווה (מח
- זור 263)\n13:30 נגד הפועל גבעתיים (מחזור 264)\nהק
- בוצות בטורניר: מכבי תל אביב 3\, מ.כ. גני תקו
- וה\, הפועל גבעתיים\nאולם: יהודה מכבי תל אב
- יב\nכתובת: אנטיגונס 6\, תל אביב\nWaze: https://waze.c
- om/ul?q=%D7%90%D7%A0%D7%98%D7%99%D7%92%D7%95%D7%A0%D7%A1%206%2C%20%D7%AA%D
- 7%9C%20%D7%90%D7%91%D7%99%D7%91&navigate=yes
+ זור 16)\n13:30 נגד הפועל גבעתיים (מחזור 16)\nהקב
+ וצות בטורניר: מכבי תל אביב 3\, מ.כ. גני תקוו
+ ה\, הפועל גבעתיים\nאולם: יהודה מכבי תל אבי
+ ב\nכתובת: אנטיגונס 6\, תל אביב\nWaze: https://waze.com
+ /ul?q=%D7%90%D7%A0%D7%98%D7%99%D7%92%D7%95%D7%A0%D7%A1%206%2C%20%D7%AA%D7%
+ 9C%20%D7%90%D7%91%D7%99%D7%91&navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:0eTydY@maccabi3.schedule
-DTSTAMP:20261103T120239Z
-LAST-MODIFIED:20261103T120239Z
-SEQUENCE:2
+DTSTAMP:20261118T203942Z
+LAST-MODIFIED:20261118T203942Z
+SEQUENCE:3
 DTSTART;TZID=Asia/Jerusalem:20270319T120000
 DTEND;TZID=Asia/Jerusalem:20270319T153000
 SUMMARY:מכבי 3: טורניר חוץ (13:00\, 14:15)
 LOCATION:אולם בית ספר גורדון\, הירקון 248 תל אבי
  ב
 DESCRIPTION:כינוס: 12:00\n13:00 נגד מכבי תל אביב 4 (מח
- זור 271)\n14:15 נגד מכבי ראשון לציון (מחזור 272)\
- nהקבוצות בטורניר: מכבי תל אביב 3\, מכבי תל 
- אביב 4\, מכבי ראשון לציון\nאולם: אולם בית ס
- פר גורדון\nכתובת: הירקון 248 תל אביב\nWaze: https
- ://waze.com/ul?q=%D7%94%D7%99%D7%A8%D7%A7%D7%95%D7%9F%20248%20%D7%AA%D7%9C
- %20%D7%90%D7%91%D7%99%D7%91&navigate=yes
+ זור 19)\n14:15 נגד מכבי ראשון לציון (מחזור 19)\n
+ הקבוצות בטורניר: מכבי תל אביב 3\, מכבי תל א
+ ביב 4\, מכבי ראשון לציון\nאולם: אולם בית ספ
+ ר גורדון\nכתובת: הירקון 248 תל אביב\nWaze: https:/
+ /waze.com/ul?q=%D7%94%D7%99%D7%A8%D7%A7%D7%95%D7%9F%20248%20%D7%AA%D7%9C%2
+ 0%D7%90%D7%91%D7%99%D7%91&navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:486ydY@maccabi3.schedule
-DTSTAMP:20261103T120239Z
-LAST-MODIFIED:20261103T120239Z
-SEQUENCE:2
+DTSTAMP:20261118T203942Z
+LAST-MODIFIED:20261118T203942Z
+SEQUENCE:3
 DTSTART;TZID=Asia/Jerusalem:20270409T131500
 DTEND;TZID=Asia/Jerusalem:20270409T164500
 SUMMARY:מכבי 3: טורניר חוץ (14:15\, 15:30)
 LOCATION:אולם תיכון צמרות תל אביב\, ניסים אלונ
  י 8 תל אביב
 DESCRIPTION:כינוס: 13:15\n14:15 נגד ק.ק. תל אביב 1 (מחז
- ור 284)\n15:30 נגד מ.ס. רמת אביב 2 (מחזור 285)\nהקב
- וצות בטורניר: מכבי תל אביב 3\, ק.ק. תל אביב 1
- \, מ.ס. רמת אביב 2\nאולם: אולם תיכון צמרות תל
-  אביב\nכתובת: ניסים אלוני 8 תל אביב\nWaze: https:
- //waze.com/ul?q=%D7%A0%D7%99%D7%A1%D7%99%D7%9D%20%D7%90%D7%9C%D7%95%D7%A0%
- D7%99%208%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91&navigate=yes
+ ור 23)\n15:30 נגד מ.ס. רמת אביב 2 (מחזור 23)\nהקבו
+ צות בטורניר: מכבי תל אביב 3\, ק.ק. תל אביב 1\,
+  מ.ס. רמת אביב 2\nאולם: אולם תיכון צמרות תל 
+ אביב\nכתובת: ניסים אלוני 8 תל אביב\nWaze: https:/
+ /waze.com/ul?q=%D7%A0%D7%99%D7%A1%D7%99%D7%9D%20%D7%90%D7%9C%D7%95%D7%A0%D
+ 7%99%208%20%D7%AA%D7%9C%20%D7%90%D7%91%D7%99%D7%91&navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

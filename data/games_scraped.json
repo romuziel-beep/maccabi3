@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-18T11:54:24Z",
+  "scraped_at": "2026-11-18T20:39:36Z",
   "source": "https://www.iva.org.il/team/?TeamId=f0kjdu&cYear=2027",
   "games": [
     {
@@ -9,7 +9,7 @@
       "opponent": "בליך עומרי ועידו רמת גן",
       "home": false,
       "venue": "בי\"ס עתיד רמת גן",
-      "round": 217,
+      "round": 1,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=da1ydX"
@@ -21,7 +21,7 @@
       "opponent": "מכבי תל אביב 2",
       "home": true,
       "venue": "בי\"ס עתיד רמת גן",
-      "round": 218,
+      "round": 1,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=f52ydX"
@@ -33,7 +33,7 @@
       "opponent": "מ.כ. גני תקווה",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
-      "round": 226,
+      "round": 4,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=bfaydY"
@@ -45,7 +45,7 @@
       "opponent": "הפועל גבעתיים",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
-      "round": 228,
+      "round": 4,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=c1cydY"
@@ -57,7 +57,7 @@
       "opponent": "מכבי ראשון לציון",
       "home": false,
       "venue": "פרס נובל ראשל\"צ",
-      "round": 235,
+      "round": 7,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=31jydY"
@@ -69,7 +69,7 @@
       "opponent": "מכבי תל אביב 4",
       "home": true,
       "venue": "פרס נובל ראשל\"צ",
-      "round": 236,
+      "round": 7,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=c3kydY"
@@ -81,7 +81,7 @@
       "opponent": "מ.ס. רמת אביב 2",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
-      "round": 247,
+      "round": 11,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=5bvydY"
@@ -93,7 +93,7 @@
       "opponent": "ק.ק. תל אביב 1",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
-      "round": 249,
+      "round": 11,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=fcxydY"
@@ -105,7 +105,7 @@
       "opponent": "בליך עומרי ועידו רמת גן",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
-      "round": 253,
+      "round": 13,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=f7BydY"
@@ -117,7 +117,7 @@
       "opponent": "מכבי תל אביב 2",
       "home": false,
       "venue": "יהודה מכבי תל אביב",
-      "round": 255,
+      "round": 13,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=53DydY"
@@ -129,7 +129,7 @@
       "opponent": "מ.כ. גני תקווה",
       "home": false,
       "venue": "יהודה מכבי תל אביב",
-      "round": 263,
+      "round": 16,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=a4LydY"
@@ -141,7 +141,7 @@
       "opponent": "הפועל גבעתיים",
       "home": false,
       "venue": "יהודה מכבי תל אביב",
-      "round": 264,
+      "round": 16,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=07MydY"
@@ -153,7 +153,7 @@
       "opponent": "מכבי תל אביב 4",
       "home": false,
       "venue": "אולם בית ספר גורדון",
-      "round": 271,
+      "round": 19,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=0eTydY"
@@ -165,7 +165,7 @@
       "opponent": "מכבי ראשון לציון",
       "home": true,
       "venue": "אולם בית ספר גורדון",
-      "round": 272,
+      "round": 19,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=50UydY"
@@ -177,7 +177,7 @@
       "opponent": "ק.ק. תל אביב 1",
       "home": false,
       "venue": "אולם תיכון צמרות תל אביב",
-      "round": 284,
+      "round": 23,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=486ydY"
@@ -189,7 +189,7 @@
       "opponent": "מ.ס. רמת אביב 2",
       "home": false,
       "venue": "אולם תיכון צמרות תל אביב",
-      "round": 285,
+      "round": 23,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=1d7ydY"
