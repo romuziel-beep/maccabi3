@@ -121,21 +121,21 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a4LydY@maccabi3.schedule
-DTSTAMP:20261103T120239Z
-LAST-MODIFIED:20261103T120239Z
-SEQUENCE:2
-DTSTART;TZID=Asia/Jerusalem:20270220T111500
-DTEND;TZID=Asia/Jerusalem:20270220T144500
-SUMMARY:מכבי 3: טורניר חוץ (12:15\, 13:30)
-LOCATION:אולם בי"ס שמעוני גבעתיים\, רביבים 1 גב
- עתיים
+DTSTAMP:20261118T115430Z
+LAST-MODIFIED:20261118T115430Z
+SEQUENCE:3
+DTSTART;TZID=Asia/Jerusalem:20270219T111500
+DTEND;TZID=Asia/Jerusalem:20270219T144500
+SUMMARY:מכבי 3: טורניר בית (12:15\, 13:30)
+LOCATION:יהודה מכבי תל אביב\, אנטיגונס 6\, תל אב
+ יב
 DESCRIPTION:כינוס: 11:15\n12:15 נגד מ.כ. גני תקווה (מח
  זור 263)\n13:30 נגד הפועל גבעתיים (מחזור 264)\nהק
  בוצות בטורניר: מכבי תל אביב 3\, מ.כ. גני תקו
- וה\, הפועל גבעתיים\nאולם: אולם בי"ס שמעוני 
- גבעתיים\nכתובת: רביבים 1 גבעתיים\nWaze: https://w
- aze.com/ul?q=%D7%A8%D7%91%D7%99%D7%91%D7%99%D7%9D%201%20%D7%92%D7%91%D7%A2
- %D7%AA%D7%99%D7%99%D7%9D&navigate=yes
+ וה\, הפועל גבעתיים\nאולם: יהודה מכבי תל אב
+ יב\nכתובת: אנטיגונס 6\, תל אביב\nWaze: https://waze.c
+ om/ul?q=%D7%90%D7%A0%D7%98%D7%99%D7%92%D7%95%D7%A0%D7%A1%206%2C%20%D7%AA%D
+ 7%9C%20%D7%90%D7%91%D7%99%D7%91&navigate=yes
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT

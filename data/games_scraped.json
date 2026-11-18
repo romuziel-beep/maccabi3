@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-18T02:56:42Z",
+  "scraped_at": "2026-11-18T11:54:24Z",
   "source": "https://www.iva.org.il/team/?TeamId=f0kjdu&cYear=2027",
   "games": [
     {
@@ -124,11 +124,11 @@
     },
     {
       "id": "a4LydY",
-      "date": "2027-02-20",
+      "date": "2027-02-19",
       "time": "12:15",
       "opponent": "מ.כ. גני תקווה",
       "home": false,
-      "venue": "אולם בי\"ס שמעוני גבעתיים",
+      "venue": "יהודה מכבי תל אביב",
       "round": 263,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
@@ -136,11 +136,11 @@
     },
     {
       "id": "07MydY",
-      "date": "2027-02-20",
+      "date": "2027-02-19",
       "time": "13:30",
       "opponent": "הפועל גבעתיים",
       "home": false,
-      "venue": "אולם בי\"ס שמעוני גבעתיים",
+      "venue": "יהודה מכבי תל אביב",
       "round": 264,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",

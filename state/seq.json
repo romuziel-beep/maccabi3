@@ -1,9 +1,9 @@
 {
   "07MydY": {
     "first_seen": "2026-11-03T10:25:59Z",
-    "modified": "2026-11-03T12:02:39Z",
-    "seq": 1,
-    "sig": "7d6636f18df22c5e65b2507b864e2b7046e5b831"
+    "modified": "2026-11-18T11:54:30Z",
+    "seq": 2,
+    "sig": "c28e45fe65028701fb83ceb80887e43ec16ea881"
   },
   "0eTydY": {
     "first_seen": "2026-11-03T10:25:59Z",
@@ -49,9 +49,9 @@
   },
   "a4LydY": {
     "first_seen": "2026-11-03T10:25:59Z",
-    "modified": "2026-11-03T12:02:39Z",
-    "seq": 2,
-    "sig": "619491be2f2a1d4289984ff7b61b948d070931c1"
+    "modified": "2026-11-18T11:54:30Z",
+    "seq": 3,
+    "sig": "3bcc3a5e8f85de134b0740c19ac2ad85188e64d2"
   },
   "bfaydY": {
     "first_seen": "2026-11-03T10:25:59Z",
@@ -103,9 +103,9 @@
   },
   "day:a4LydY": {
     "first_seen": "2026-11-03T10:25:59Z",
-    "modified": "2026-11-03T12:02:39Z",
-    "seq": 2,
-    "sig": "049e1734a6689a773227dc94cc245c0fc2356c4c"
+    "modified": "2026-11-18T11:54:30Z",
+    "seq": 3,
+    "sig": "faaaab4954b0381896e746fbf8dd02ba6cb288eb"
   },
   "day:bfaydY": {
     "first_seen": "2026-11-03T10:25:59Z",

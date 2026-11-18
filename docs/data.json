@@ -6,7 +6,7 @@
   "standings": {
     "league": "ליגת נערים ב' (U15)",
     "region": "מרכז ב'",
-    "updated": "2026-11-18T02:56:42Z",
+    "updated": "2026-11-18T11:54:24Z",
     "rows": [
       {
         "rank": 1,
@@ -91,8 +91,8 @@
       }
     ]
   },
-  "checked_at": "2026-11-18T02:56:42Z",
-  "built_at": "2026-11-18T02:56:47Z",
+  "checked_at": "2026-11-18T11:54:24Z",
+  "built_at": "2026-11-18T11:54:30Z",
   "stale_hours": 36,
   "warn_after_hours": 6,
   "scrape": {
@@ -373,18 +373,18 @@
     },
     {
       "id": "a4LydY",
-      "date": "2027-02-20",
+      "date": "2027-02-19",
       "time": "12:15",
       "opponent": "מ.כ. גני תקווה",
-      "home": false,
-      "venue": "אולם בי\"ס שמעוני גבעתיים",
+      "home": true,
+      "venue": "יהודה מכבי תל אביב",
       "round": 263,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=a4LydY",
       "origin": "scraped",
       "note": "",
-      "address": "רביבים 1 גבעתיים",
+      "address": "אנטיגונס 6, תל אביב",
       "address_verified": true,
       "iva_home": false,
       "gather_minutes": 60,
@@ -394,24 +394,24 @@
       "day_key": "a4LydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 2,
-      "modified": "2026-11-03T12:02:39Z",
-      "recently_changed": false
+      "seq": 3,
+      "modified": "2026-11-18T11:54:30Z",
+      "recently_changed": true
     },
     {
       "id": "07MydY",
-      "date": "2027-02-20",
+      "date": "2027-02-19",
       "time": "13:30",
       "opponent": "הפועל גבעתיים",
-      "home": false,
-      "venue": "אולם בי\"ס שמעוני גבעתיים",
+      "home": true,
+      "venue": "יהודה מכבי תל אביב",
       "round": 264,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=07MydY",
       "origin": "scraped",
       "note": "",
-      "address": "רביבים 1 גבעתיים",
+      "address": "אנטיגונס 6, תל אביב",
       "address_verified": true,
       "iva_home": false,
       "gather_minutes": 60,
@@ -421,9 +421,9 @@
       "day_key": "a4LydY",
       "day_index": 1,
       "day_size": 2,
-      "seq": 1,
-      "modified": "2026-11-03T12:02:39Z",
-      "recently_changed": false
+      "seq": 2,
+      "modified": "2026-11-18T11:54:30Z",
+      "recently_changed": true
     },
     {
       "id": "0eTydY",
@@ -657,11 +657,11 @@
     },
     {
       "key": "a4LydY",
-      "date": "2027-02-20",
-      "venue": "אולם בי\"ס שמעוני גבעתיים",
-      "address": "רביבים 1 גבעתיים",
+      "date": "2027-02-19",
+      "venue": "יהודה מכבי תל אביב",
+      "address": "אנטיגונס 6, תל אביב",
       "address_verified": true,
-      "home": false,
+      "home": true,
       "gather": "11:15",
       "start_time": "12:15",
       "end_time": "14:45",
@@ -675,9 +675,9 @@
         "07MydY"
       ],
       "status": "scheduled",
-      "seq": 2,
-      "modified": "2026-11-03T12:02:39Z",
-      "recently_changed": false
+      "seq": 3,
+      "modified": "2026-11-18T11:54:30Z",
+      "recently_changed": true
     },
     {
       "key": "0eTydY",
