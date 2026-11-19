@@ -6,7 +6,7 @@
   "standings": {
     "league": "ליגת נערים ב' (U15)",
     "region": "מרכז ב'",
-    "updated": "2026-11-19T11:50:48Z",
+    "updated": "2026-11-19T20:45:57Z",
     "rows": [
       {
         "rank": 1,
@@ -91,8 +91,8 @@
       }
     ]
   },
-  "checked_at": "2026-11-19T11:50:48Z",
-  "built_at": "2026-11-19T11:50:57Z",
+  "checked_at": "2026-11-19T20:45:57Z",
+  "built_at": "2026-11-19T20:46:02Z",
   "stale_hours": 36,
   "warn_after_hours": 6,
   "scrape": {
@@ -374,7 +374,7 @@
     {
       "id": "a4LydY",
       "date": "2027-02-19",
-      "time": "12:15",
+      "time": "13:00",
       "opponent": "מ.כ. גני תקווה",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
@@ -388,20 +388,20 @@
       "address_verified": true,
       "iva_home": false,
       "gather_minutes": 60,
-      "gather": "11:15",
+      "gather": "12:00",
       "duration_min": 75,
       "conflicts": [],
       "day_key": "a4LydY",
       "day_index": 0,
       "day_size": 2,
-      "seq": 4,
-      "modified": "2026-11-18T20:39:42Z",
+      "seq": 5,
+      "modified": "2026-11-19T20:46:02Z",
       "recently_changed": true
     },
     {
       "id": "07MydY",
       "date": "2027-02-19",
-      "time": "13:30",
+      "time": "15:30",
       "opponent": "הפועל גבעתיים",
       "home": true,
       "venue": "יהודה מכבי תל אביב",
@@ -421,8 +421,8 @@
       "day_key": "a4LydY",
       "day_index": 1,
       "day_size": 2,
-      "seq": 3,
-      "modified": "2026-11-18T20:39:42Z",
+      "seq": 4,
+      "modified": "2026-11-19T20:46:02Z",
       "recently_changed": true
     },
     {
@@ -662,9 +662,9 @@
       "address": "אנטיגונס 6, תל אביב",
       "address_verified": true,
       "home": true,
-      "gather": "11:15",
-      "start_time": "12:15",
-      "end_time": "14:45",
+      "gather": "12:00",
+      "start_time": "13:00",
+      "end_time": "16:45",
       "teams": [
         "מכבי תל אביב 3",
         "מ.כ. גני תקווה",
@@ -675,8 +675,8 @@
         "07MydY"
       ],
       "status": "scheduled",
-      "seq": 4,
-      "modified": "2026-11-18T20:39:42Z",
+      "seq": 5,
+      "modified": "2026-11-19T20:46:02Z",
       "recently_changed": true
     },
     {

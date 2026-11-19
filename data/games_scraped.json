@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-19T11:50:48Z",
+  "scraped_at": "2026-11-19T20:45:57Z",
   "source": "https://www.iva.org.il/team/?TeamId=f0kjdu&cYear=2027",
   "games": [
     {
@@ -125,7 +125,7 @@
     {
       "id": "a4LydY",
       "date": "2027-02-19",
-      "time": "12:15",
+      "time": "13:00",
       "opponent": "מ.כ. גני תקווה",
       "home": false,
       "venue": "יהודה מכבי תל אביב",
@@ -137,7 +137,7 @@
     {
       "id": "07MydY",
       "date": "2027-02-19",
-      "time": "13:30",
+      "time": "15:30",
       "opponent": "הפועל גבעתיים",
       "home": false,
       "venue": "יהודה מכבי תל אביב",

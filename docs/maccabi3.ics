@@ -119,16 +119,16 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:a4LydY@maccabi3.schedule
-DTSTAMP:20261118T203942Z
-LAST-MODIFIED:20261118T203942Z
-SEQUENCE:4
-DTSTART;TZID=Asia/Jerusalem:20270219T111500
-DTEND;TZID=Asia/Jerusalem:20270219T144500
-SUMMARY:מכבי 3: טורניר בית (12:15\, 13:30)
+DTSTAMP:20261119T204602Z
+LAST-MODIFIED:20261119T204602Z
+SEQUENCE:5
+DTSTART;TZID=Asia/Jerusalem:20270219T120000
+DTEND;TZID=Asia/Jerusalem:20270219T164500
+SUMMARY:מכבי 3: טורניר בית (13:00\, 15:30)
 LOCATION:יהודה מכבי תל אביב\, אנטיגונס 6\, תל אב
  יב
-DESCRIPTION:כינוס: 11:15\n12:15 נגד מ.כ. גני תקווה (מח
- זור 16)\n13:30 נגד הפועל גבעתיים (מחזור 16)\nהקב
+DESCRIPTION:כינוס: 12:00\n13:00 נגד מ.כ. גני תקווה (מח
+ זור 16)\n15:30 נגד הפועל גבעתיים (מחזור 16)\nהקב
  וצות בטורניר: מכבי תל אביב 3\, מ.כ. גני תקוו
  ה\, הפועל גבעתיים\nאולם: יהודה מכבי תל אבי
  ב\nכתובת: אנטיגונס 6\, תל אביב\nWaze: https://waze.com
