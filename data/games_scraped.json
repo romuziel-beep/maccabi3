@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-20T11:52:00Z",
+  "scraped_at": "2026-11-20T20:29:34Z",
   "source": "https://www.iva.org.il/team/?TeamId=f0kjdu&cYear=2027",
   "games": [
     {
@@ -12,7 +12,12 @@
       "round": 1,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
-      "source_url": "https://www.iva.org.il/game-zone/?GameId=da1ydX"
+      "source_url": "https://www.iva.org.il/game-zone/?GameId=da1ydX",
+      "result_text": "2-1",
+      "score": {
+        "home": 2,
+        "away": 1
+      }
     },
     {
       "id": "f52ydX",
@@ -24,7 +29,12 @@
       "round": 1,
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
-      "source_url": "https://www.iva.org.il/game-zone/?GameId=f52ydX"
+      "source_url": "https://www.iva.org.il/game-zone/?GameId=f52ydX",
+      "result_text": "2-0",
+      "score": {
+        "home": 2,
+        "away": 0
+      }
     },
     {
       "id": "bfaydY",

@@ -6,7 +6,7 @@
   "standings": {
     "league": "ליגת נערים ב' (U15)",
     "region": "מרכז ב'",
-    "updated": "2026-11-20T11:52:00Z",
+    "updated": "2026-11-20T20:29:34Z",
     "rows": [
       {
         "rank": 1,
@@ -37,6 +37,24 @@
       },
       {
         "rank": 4,
+        "team": "בליך עומרי ועידו רמת גן",
+        "played": 2,
+        "wins": 1,
+        "losses": 1,
+        "diff": 1,
+        "points": 3
+      },
+      {
+        "rank": 5,
+        "team": "מכבי תל אביב 2",
+        "played": 2,
+        "wins": 1,
+        "losses": 1,
+        "diff": 0,
+        "points": 3
+      },
+      {
+        "rank": 6,
         "team": "הפועל גבעתיים",
         "played": 2,
         "wins": 1,
@@ -45,7 +63,16 @@
         "points": 3
       },
       {
-        "rank": 5,
+        "rank": 7,
+        "team": "מכבי תל אביב 3",
+        "played": 2,
+        "wins": 1,
+        "losses": 1,
+        "diff": -1,
+        "points": 3
+      },
+      {
+        "rank": 8,
         "team": "מ.כ. גני תקווה",
         "played": 2,
         "wins": 0,
@@ -54,45 +81,18 @@
         "points": 2
       },
       {
-        "rank": 6,
+        "rank": 9,
         "team": "מכבי ראשון לציון",
         "played": 2,
         "wins": 0,
         "losses": 2,
         "diff": -4,
         "points": 2
-      },
-      {
-        "rank": 7,
-        "team": "בליך עומרי ועידו רמת גן",
-        "played": 0,
-        "wins": 0,
-        "losses": 0,
-        "diff": 0,
-        "points": 0
-      },
-      {
-        "rank": 8,
-        "team": "מכבי תל אביב 3",
-        "played": 0,
-        "wins": 0,
-        "losses": 0,
-        "diff": 0,
-        "points": 0
-      },
-      {
-        "rank": 9,
-        "team": "מכבי תל אביב 2",
-        "played": 0,
-        "wins": 0,
-        "losses": 0,
-        "diff": 0,
-        "points": 0
       }
     ]
   },
-  "checked_at": "2026-11-20T11:52:00Z",
-  "built_at": "2026-11-20T11:52:12Z",
+  "checked_at": "2026-11-20T20:29:34Z",
+  "built_at": "2026-11-20T20:29:39Z",
   "stale_hours": 36,
   "warn_after_hours": 6,
   "scrape": {
@@ -112,6 +112,11 @@
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=da1ydX",
+      "result_text": "2-1",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "origin": "scraped",
       "note": "",
       "address": "",
@@ -139,6 +144,11 @@
       "league": "ליגת נערים ב' (U15)",
       "status": "scheduled",
       "source_url": "https://www.iva.org.il/game-zone/?GameId=f52ydX",
+      "result_text": "2-0",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "origin": "scraped",
       "note": "",
       "address": "",
